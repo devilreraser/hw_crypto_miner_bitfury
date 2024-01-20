@@ -1,0 +1,19 @@
+PADS Layout ECO Generator (Version 6.4v) 09.02.2017 23:41:42
+Copyright (c) 2003 - 2008 Mentor Graphics Corp. - All rights reserved
+Command line arguments:  -e D:\Projects\AltiumProjects\Za Joro BTF 16\BTF16_2\Pads\BTF16_2\ecogen.err -u NOT_CONNECTED -d D:\Projects\AltiumProjects\Za Joro BTF 16\BTF16_2\Pads\BTF16_2\powerpcb.rep -r pa -a PCB,PART,NET,PIN
+44 msec
+1 msec
+Reading the OLD DESIGN
+There are 313 parts in the design
+There are 135 signals in the design
+There are 1727 pins in the design
+68 msec
+Reading the NEW DESIGN
+There are 313 parts in the design
+There are 135 signals in the design
+There are 1727 pins in the design
+6 msec
+Final cost=81
+Partitioning - 4 msec
+Final Matching - 3 msec
+Deleted pins: 0,  Added pins: 0

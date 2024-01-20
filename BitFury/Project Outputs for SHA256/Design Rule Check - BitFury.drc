@@ -1,0 +1,35 @@
+Protel Design System Design Rule Check
+PCB File : D:\AProj\BitFury\BitFury.PcbDoc
+Date     : 19.10.2013 ã.
+Time     : 21:53:06
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) ((InPadClass('All Pads'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) ((OnLayer('Keep-Out Layer'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.25mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) (InPolygon),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) ((InComponentClass('All Components'))),(All)
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:09

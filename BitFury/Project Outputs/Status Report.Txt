@@ -1,0 +1,27 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [BitFury.PcbDoc]
+   Generated File[BitFury.GTL]
+   Generated File[BitFury.G1]
+   Generated File[BitFury.G2]
+   Generated File[BitFury.GBL]
+   Generated File[BitFury.GPB]
+   Generated File[BitFury.GPT]
+   Generated File[BitFury.GTP]
+   Generated File[BitFury.GTS]
+   Generated File[BitFury.GBS]
+   Generated File[BitFury.GBP]
+   Generated File[BitFury.GM2]
+   Generated File[BitFury.GM3]
+   Generated File[BitFury.GM4]
+   Generated File[BitFury.GKO]
+   Generated File[BitFury.GD1]
+   Generated File[BitFury.RUL]
+   Generated File[BitFury.EXTREP]
+   Generated File[BitFury.REP]
+
+
+Files Generated   : 18
+Documents Printed : 0
+
+Finished Output Generation At 22:01:38 On 19.10.2013 ã.

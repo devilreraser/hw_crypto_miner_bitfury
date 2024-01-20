@@ -1,0 +1,60 @@
+RefDes: 5
+FactPartName: SMD_TP_100-254
+SubSeriesName: smd_tp_100-254
+PartNum: smd_tp_100-254
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_tp_100-254\smd_tp_100-254.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_tp_100-254\smd_tp_100-254.etd
+
+
+RefDes: 3
+FactPartName: SMD_CON-CVILUX-CU04-SCM15B0
+SubSeriesName: smd_con-cvilux-cu04-scm15b0
+PartNum: smd_con-cvilux-cu04-scm15b0
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_con-cvilux-cu04-scm15b0\smd_con-cvilux-cu04-scm15b0.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_con-cvilux-cu04-scm15b0\smd_con-cvilux-cu04-scm15b0.etd
+
+
+RefDes: 0
+FactPartName: SMD_0603_CAPC1608X95N
+SubSeriesName: smd_0603_capc1608x95n
+PartNum: smd_0603_capc1608x95n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_0603_capc1608x95n\smd_0603_capc1608x95n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_0603_capc1608x95n\smd_0603_capc1608x95n.etd
+
+
+RefDes: 2
+FactPartName: SMD_0805_CAPC2012X145N
+SubSeriesName: smd_0805_capc2012x145n
+PartNum: smd_0805_capc2012x145n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_0805_capc2012x145n\smd_0805_capc2012x145n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_0805_capc2012x145n\smd_0805_capc2012x145n.etd
+
+
+RefDes: 1
+FactPartName: SMD_0603_RESC1608X55N
+SubSeriesName: smd_0603_resc1608x55n
+PartNum: smd_0603_resc1608x55n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_0603_resc1608x55n\smd_0603_resc1608x55n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_0603_resc1608x55n\smd_0603_resc1608x55n.etd
+
+
+RefDes: 4
+FactPartName: SMD_DO214AC_SMC
+SubSeriesName: smd_do214ac_smc
+PartNum: smd_do214ac_smc
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_do214ac_smc\smd_do214ac_smc.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_do214ac_smc\smd_do214ac_smc.etd
+
+

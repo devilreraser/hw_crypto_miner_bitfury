@@ -1,0 +1,1046 @@
+Protel Design System Design Rule Check
+PCB File : D:\Projects\AltiumProjects\Za Joro BTF 16\BTF16_2\BTF16_2.PcbDoc
+Date     : 10.02.2017
+Time     : 10:01:28
+
+ERROR : More than 500 violations detected, DRC was stopped
+
+Processing Rule : Power Plane Connect Rule(NoConnect Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) ((Name='J10-1') Or (Name='J11-1') Or (Name='J12-1') Or (Name='J13-1') Or (Name='J14-1') Or (Name='J15-1') Or (Name='J16-1') Or (Name='J17-1') Or (Name='J18-1') Or (Name='J19-1') Or (Name='J20-1') Or (Name='J21-1') Or (Name='J22-1') Or (Name='J23-1') Or (Name='J24-1') Or (Name='J25-1') Or (Name='J26-1') Or (Name='J27-1') Or (Name='J28-1') Or (Name='J29-1') Or (Name='J3-10') Or (Name='J3-11') Or (Name='J30-1') Or (Name='J31-1') Or (Name='J32-1') Or (Name='J33-1') Or (Name='J34-1') Or (Name='J35-1') Or (Name='J36-1') Or (Name='J37-1') Or (Name='J38-1') Or (Name='J39-1') Or (Name='J40-1') Or (Name='J41-1'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.5mm) (Air Gap=0.254mm) (Entries=4) (IsVia)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.5mm) (Air Gap=0.254mm) (Entries=4) (IsPad And OnMultiLayer And (PadShape_MidLayer1 = 'Round') And (PadXSize_MidLayer1 = PadYSize_MidLayer1))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.5mm) (Air Gap=0.254mm) (Entries=4) (IsPad And OnMultiLayer And ((PadShape_MidLayer1 = 'Rectangular') Or (PadShape_MidLayer1 = 'Octagonal') Or (PadShape_MidLayer1 = 'Rounded Rectangle')) And (PadXSize_MidLayer1 = PadYSize_MidLayer1))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.5mm) (Air Gap=0.254mm) (Entries=4) (IsPad And OnMultiLayer And ((PadShape_MidLayer1 = 'Rectangular') Or (PadShape_MidLayer1 = 'Octagonal') Or (PadShape_MidLayer1 = 'Rounded Rectangle')) And (PadXSize_MidLayer1 <> PadYSize_MidLayer1))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.5mm) (Air Gap=0.254mm) (Entries=4) (IsPad And OnMultiLayer And (PadShape_MidLayer1 = 'Rounded Rectangle') And (PadXSize_MidLayer1 = PadYSize_MidLayer1) And (Pad_CornerRadius_MidLayer1 = '0%'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.5mm) (Air Gap=0.254mm) (Entries=4) (IsPad And OnMultiLayer And (PadShape_MidLayer1 = 'Round') And (PadXSize_MidLayer1 <> PadYSize_MidLayer1))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.5mm) (Air Gap=0.254mm) (Entries=4) (IsPad And OnMultiLayer And (PadShape_MidLayer1 = 'Rounded Rectangle') And (PadXSize_MidLayer1 = PadYSize_MidLayer1) And (Pad_CornerRadius_MidLayer1 = '100%'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-39(41.4mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-38(41mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-37(40.6mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-36(40.2mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-35(39.8mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-34(39.4mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-33(39mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-32(38.6mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-31(38.2mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-29(37.55mm,-37.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-28(37.55mm,-37mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-27(37.55mm,-36.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-26(37.55mm,-36.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-25(37.55mm,-35.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-24(37.55mm,-35.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-23(37.55mm,-35mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-22(37.55mm,-34.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-21(37.55mm,-34.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-19(38.6mm,-33.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-18(39mm,-33.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-17(39.4mm,-33.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-16(39.8mm,-33.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-15(40.2mm,-33.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-14(40.6mm,-33.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-13(41mm,-33.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-12(41.4mm,-33.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-11(41.8mm,-33.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-9(42.45mm,-34.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-8(42.45mm,-35mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-7(42.45mm,-35.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-6(42.45mm,-35.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-5(42.45mm,-36.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-4(42.45mm,-36.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-3(42.45mm,-37mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-2(42.45mm,-37.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U21-1(42.45mm,-37.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-39(1.4mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-38(1mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-37(0.6mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-36(0.2mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-35(-0.2mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-34(-0.6mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-33(-1mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-32(-1.4mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-31(-1.8mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-29(-2.45mm,-73.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-28(-2.45mm,-73mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-27(-2.45mm,-72.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-26(-2.45mm,-72.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-25(-2.45mm,-71.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-24(-2.45mm,-71.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-23(-2.45mm,-71mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-22(-2.45mm,-70.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-21(-2.45mm,-70.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-19(-1.4mm,-69.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-18(-1mm,-69.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-17(-0.6mm,-69.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-16(-0.2mm,-69.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-15(0.2mm,-69.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-14(0.6mm,-69.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-13(1mm,-69.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-12(1.4mm,-69.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-11(1.8mm,-69.55mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-9(2.45mm,-70.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-8(2.45mm,-71mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-7(2.45mm,-71.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-6(2.45mm,-71.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-5(2.45mm,-72.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-4(2.45mm,-72.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-3(2.45mm,-73mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-2(2.45mm,-73.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U33-1(2.45mm,-73.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-39(-2.45mm,-1.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-38(-2.45mm,-1mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-37(-2.45mm,-0.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-36(-2.45mm,-0.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-35(-2.45mm,0.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-34(-2.45mm,0.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-33(-2.45mm,1mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-32(-2.45mm,1.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-31(-2.45mm,1.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-29(-1.4mm,2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-28(-1mm,2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-27(-0.6mm,2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-26(-0.2mm,2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-25(0.2mm,2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-24(0.6mm,2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-23(1mm,2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-22(1.4mm,2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-21(1.8mm,2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-19(2.45mm,1.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-18(2.45mm,1mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-17(2.45mm,0.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-16(2.45mm,0.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-15(2.45mm,-0.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-14(2.45mm,-0.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-13(2.45mm,-1mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-12(2.45mm,-1.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-11(2.45mm,-1.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-9(1.4mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-8(1mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-7(0.6mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-6(0.2mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-5(-0.2mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-4(-0.6mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-3(-1mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-2(-1.4mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U9-1(-1.8mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-1(37.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-1(37.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-2(37.7mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-2(37.7mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-3(38.1mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-3(38.1mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-4(38.5mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-4(38.5mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-5(38.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-13(38.5mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-13(38.5mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-14(38.1mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-14(38.1mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-15(37.7mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-15(37.7mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-16(37.3mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U41-17(38.7mm,67.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-1(36.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-1(36.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-2(37.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-2(37.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-3(37.7mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-3(37.7mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-4(38.1mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-4(38.1mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-5(38.5mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-5(38.5mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-6(38.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-12(38.5mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-12(38.5mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-13(38.1mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-13(38.1mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-14(37.7mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-14(37.7mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-15(37.3mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U42-17(38.3mm,67.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-1(14.7mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-1(14.7mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-2(15.1mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-2(15.1mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-4(15.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-4(15.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-4(15.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-4(15.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-5(16.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-5(16.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-13(15.9mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-13(15.9mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-14(15.5mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-14(15.5mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-15(15.1mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-15(15.1mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U43-16(14.7mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-1(14.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-1(14.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-2(14.7mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-2(14.7mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-3(15.1mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-3(15.1mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-5(15.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-5(15.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-5(15.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-5(15.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-6(16.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-6(16.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-12(15.9mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-12(15.9mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-13(15.5mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-13(15.5mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-14(15.1mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-14(15.1mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Pad U44-15(14.7mm,69.45mm)  L1
+   Violation between Track (-17.882mm,37.017mm)(-17.4mm,33.3mm)  L2 and 
+                     Pad J12-1(-20mm,36mm)  Multi-Layer
+   Violation between Track (-21.096mm,33.921mm)(-17.4mm,33.3mm)  L2 and 
+                     Pad J12-1(-20mm,36mm)  Multi-Layer
+   Violation between Track (-22.325mm,36.342mm)(-20.56mm,40.26mm)  L2 and 
+                     Pad J12-1(-20mm,36mm)  Multi-Layer
+   Violation between Track (-20.56mm,40.26mm)(-17.843mm,36.932mm)  L2 and 
+                     Pad J12-1(-20mm,36mm)  Multi-Layer
+   Violation between Track (2.12mm,19.015mm)(2.5mm,15.5mm)  L2 and 
+                     Pad J15-1(0mm,18mm)  Multi-Layer
+   Violation between Track (-3.68mm,20.6mm)(-1.809mm,16.501mm)  L2 and 
+                     Pad J15-1(0mm,18mm)  Multi-Layer
+   Violation between Track (-1.015mm,15.88mm)(2.5mm,15.5mm)  L2 and 
+                     Pad J15-1(0mm,18mm)  Multi-Layer
+   Violation between Track (-3.68mm,20.6mm)(0.809mm,20.207mm)  L2 and 
+                     Pad J15-1(0mm,18mm)  Multi-Layer
+   Violation between Track (22.106mm,1.043mm)(22.5mm,-2.4mm)  L2 and 
+                     Pad J19-1(20mm,0mm)  Multi-Layer
+   Violation between Track (19.044mm,-2.147mm)(22.5mm,-2.4mm)  L2 and 
+                     Pad J19-1(20mm,0mm)  Multi-Layer
+   Violation between Track (16.333mm,2.6mm)(20.811mm,2.206mm)  L2 and 
+                     Pad J19-1(20mm,0mm)  Multi-Layer
+   Violation between Track (16.333mm,2.6mm)(18.187mm,-1.495mm)  L2 and 
+                     Pad J19-1(20mm,0mm)  Multi-Layer
+   Violation between Track (37.5mm,-15.6mm)(37.894mm,-19.043mm)  L2 and 
+                     Pad J23-1(40mm,-18mm)  Multi-Layer
+   Violation between Track (37.5mm,-15.6mm)(40.956mm,-15.853mm)  L2 and 
+                     Pad J23-1(40mm,-18mm)  Multi-Layer
+   Violation between Track (40.868mm,-22.368mm)(42.344mm,-18.166mm)  L2 and 
+                     Pad J23-1(40mm,-18mm)  Multi-Layer
+   Violation between Track (37.898mm,-19.05mm)(40.868mm,-22.368mm)  L2 and 
+                     Pad J23-1(40mm,-18mm)  Multi-Layer
+   Violation between Region (0 hole(s)) L1 and 
+                     Via (39.6mm,67.2mm) L1 to L4
+   Violation between Region (0 hole(s)) L1 and 
+                     Via (39.7mm,68.4mm) L1 to L4
+   Violation between Region (0 hole(s)) L1 and 
+                     Via (38.5mm,67.2mm) L1 to L4
+   Violation between Region (0 hole(s)) L1 and 
+                     Via (37.3mm,67.2mm) L1 to L4
+   Violation between Region (0 hole(s)) L1 and 
+                     Via (37.3mm,68.4mm) L1 to L4
+   Violation between Region (0 hole(s)) L1 and 
+                     Via (38.5mm,68.4mm) L1 to L4
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.9mm,55.771mm)(15.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.9mm,55.771mm)(15.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.9mm,55.771mm)(15.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.9mm,55.771mm)(15.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.5mm,67.8mm)(38.5mm,68.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.1mm,66.15mm)(38.1mm,67.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.1mm,66.15mm)(38.1mm,67.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.1mm,66.15mm)(38.1mm,67.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.1mm,66.15mm)(38.1mm,67.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.1mm,66.15mm)(38.1mm,67.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.5mm,66.15mm)(15.5mm,67.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.5mm,66.15mm)(15.5mm,67.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (16.3mm,66.15mm)(16.3mm,66.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (16.3mm,66.15mm)(16.3mm,66.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (16.3mm,66.15mm)(16.3mm,66.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (16.3mm,66.15mm)(16.3mm,66.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.9mm,66.15mm)(15.9mm,66.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.9mm,66.15mm)(15.9mm,66.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.9mm,66.15mm)(15.9mm,66.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.9mm,66.15mm)(15.9mm,66.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.9mm,66.15mm)(15.9mm,66.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.9mm,66.15mm)(15.9mm,66.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (16.3mm,65.112mm)(16.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (16.3mm,65.112mm)(16.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (16.3mm,65.112mm)(16.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (16.3mm,65.112mm)(16.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36.5mm,66.1mm)(36.9mm,66.1mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36.5mm,66.1mm)(36.9mm,66.1mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (13.9mm,66.1mm)(14.3mm,66.1mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (13.9mm,66.1mm)(14.3mm,66.1mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,0.6mm)(4.7mm,0.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-0.2mm)(3.6mm,-0.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (0.2mm,-69.55mm)(0.2mm,-67.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (40.2mm,-33.55mm)(40.2mm,-31.35mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-1mm)(3.2mm,-1mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (1mm,-69.55mm)(1mm,-68.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (41mm,-33.55mm)(41mm,-31.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-1.8mm)(2.8mm,-1.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.8mm,-1.8mm)(3.3mm,-2.3mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (1.8mm,-69.55mm)(1.8mm,-69.5mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (1.8mm,-69.5mm)(2.5mm,-69.5mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,0.2mm)(3.9mm,0.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-0.2mm,-69.55mm)(-0.2mm,-65.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (39.8mm,-33.55mm)(39.8mm,-32.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-0.6mm)(3.4mm,-0.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (0.6mm,-69.55mm)(0.6mm,-68mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (40.6mm,-33.55mm)(40.6mm,-30.747mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-1.4mm)(3mm,-1.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (1.4mm,-69.55mm)(1.4mm,-68.7mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (1.4mm,-76.3mm)(1.4mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36.9mm,-34.6mm)(37.55mm,-34.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36.6mm,-35.4mm)(37.55mm,-35.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-73.4mm)(3.2mm,-73.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36.9mm,-35.8mm)(37.55mm,-35.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36.6mm,-36.6mm)(37.55mm,-36.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-72.2mm)(4.2mm,-72.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36.9mm,-37mm)(37.55mm,-37mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-71mm)(4.4mm,-71mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.2mm,-39.4mm)(38.2mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (39mm,-39.2mm)(39mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (39.4mm,-39.2mm)(39.4mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (40.2mm,-39.4mm)(40.2mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-0.6mm,-69.55mm)(-0.6mm,-68.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-4.2mm,-70.2mm)(-2.45mm,-70.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (39.4mm,-33.55mm)(39.4mm,-32.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-1mm,-75.9mm)(-1mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (0.2mm,-77mm)(0.2mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36mm,-34.2mm)(37.55mm,-34.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.6mm,-33.55mm)(38.6mm,-32.9mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (37.55mm,-34.2mm)(37.55mm,-33.05mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36.3mm,68.6mm)(36.9mm,69.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36.3mm,68.6mm)(36.9mm,69.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36.9mm,69.2mm)(36.9mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36.9mm,69.2mm)(36.9mm,69.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,1mm)(3.419mm,1mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-1mm,-69.55mm)(-1mm,-68.57mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (41.4mm,-33.55mm)(41.4mm,-32mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (41.8mm,-33.55mm)(41.8mm,-32.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.1mm,64.6mm)(38.1mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.1mm,64.6mm)(38.1mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.7mm,67.8mm)(41.8mm,67.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.1mm,67.6mm)(38.3mm,67.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.5mm,67.8mm)(38.7mm,67.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.3mm,67.8mm)(38.5mm,67.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (39mm,-33.55mm)(39mm,-32.7mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.1mm,65mm)(15.1mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.1mm,65mm)(15.1mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (14.3mm,66.1mm)(14.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (14.3mm,66.1mm)(14.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (37.7mm,65.372mm)(37.7mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (37.7mm,65.372mm)(37.7mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36.9mm,66.1mm)(36.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (36.9mm,66.1mm)(36.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (1.8mm,2.45mm)(1.8mm,3.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (0.6mm,2.45mm)(0.6mm,4.5mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-0.6mm,2.45mm)(-0.6mm,4.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-4.4mm,1mm)(-2.45mm,1mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-4.9mm,-0.2mm)(-2.45mm,-0.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-3.7mm,-1.4mm)(-2.45mm,-1.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-1.4mm,-4.685mm)(-1.4mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-0.2mm,-5.1mm)(-0.2mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (1mm,-3.7mm)(1mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,1.4mm)(3.2mm,1.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (1.4mm,2.45mm)(1.4mm,3.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (0.2mm,2.45mm)(0.2mm,4.9mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-1mm,2.45mm)(-1mm,4.3mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-3.4mm,1.8mm)(-2.45mm,1.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-4.9mm,0.6mm)(-2.45mm,0.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-4.5mm,-0.6mm)(-2.45mm,-0.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-1mm,-5.076mm)(-1mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (0.2mm,-4.7mm)(0.2mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (1.4mm,-3.078mm)(1.4mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (1mm,2.45mm)(1mm,4.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-0.2mm,2.45mm)(-0.2mm,4.9mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-1.4mm,2.45mm)(-1.4mm,4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-3.9mm,1.4mm)(-2.45mm,1.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-5.4mm,0.2mm)(-2.45mm,0.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-4.1mm,-1mm)(-2.45mm,-1mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-2.95mm,-2.45mm)(-1.8mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-0.6mm,-5.5mm)(-0.6mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (0.6mm,-4.3mm)(0.6mm,-2.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-5.3mm,-71.4mm)(-2.45mm,-71.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-4.8mm,-72.6mm)(-2.45mm,-72.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (0.6mm,-77.7mm)(0.6mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-73mm)(3.6mm,-73mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-71.8mm)(4.8mm,-71.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-70.6mm)(4mm,-70.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-1.4mm,-69.55mm)(-1.4mm,-68.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-4.6mm,-70.6mm)(-2.45mm,-70.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-5.6mm,-71.8mm)(-2.45mm,-71.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-4.3mm,-73mm)(-2.45mm,-73mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-1.8mm,-74.9mm)(-1.8mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-0.6mm,-76.5mm)(-0.6mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (1mm,-77.3mm)(1mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-74.5mm)(2.45mm,-73.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-72.6mm)(3.9mm,-72.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (2.45mm,-71.4mm)(4.7mm,-71.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-4.9mm,-71mm)(-2.45mm,-71mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-5.2mm,-72.2mm)(-2.45mm,-72.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-3.8mm,-73.4mm)(-2.45mm,-73.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-1.4mm,-75.3mm)(-1.4mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (-0.2mm,-76.8mm)(-0.2mm,-74.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (41.4mm,-39.2mm)(41.4mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (42.45mm,-37.4mm)(45.2mm,-37.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (42.45mm,-36.2mm)(44.2mm,-36.2mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (42.45mm,-35mm)(43.3mm,-35mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (40.6mm,-40.8mm)(40.6mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (42.45mm,-37mm)(44.8mm,-37mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (42.45mm,-35.8mm)(43.9mm,-35.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (42.45mm,-34.6mm)(43mm,-34.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (41mm,-40.456mm)(41mm,-38.45mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (42.45mm,-37.8mm)(45.6mm,-37.8mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (42.45mm,-36.6mm)(44.5mm,-36.6mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (42.45mm,-35.4mm)(43.6mm,-35.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (14.7mm,65.538mm)(14.7mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (14.7mm,65.538mm)(14.7mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (14.7mm,69.45mm)(14.7mm,70.1mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (37.3mm,65.538mm)(37.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (37.3mm,65.538mm)(37.3mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (37.3mm,69.45mm)(37.3mm,69.974mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.5mm,65.1mm)(38.5mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.5mm,65.1mm)(38.5mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.9mm,65.1mm)(38.9mm,66.15mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.5mm,69.45mm)(15.5mm,70.9mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.5mm,69.45mm)(15.5mm,70.9mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.1mm,69.45mm)(15.1mm,70.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (15.1mm,69.45mm)(15.1mm,70.4mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.1mm,69.45mm)(38.1mm,70.85mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (38.1mm,69.45mm)(38.1mm,70.85mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (37.7mm,69.45mm)(37.7mm,70.253mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Track (37.7mm,69.45mm)(37.7mm,70.253mm)  L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Track (36.5mm,66.1mm)(36.9mm,66.1mm)  L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Track (38.1mm,66.15mm)(38.1mm,67.2mm)  L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Track (38.1mm,66.15mm)(38.1mm,67.2mm)  L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+   Violation between Region (0 hole(s)) L1 and 
+                     Region (0 hole(s)) L1
+Rule Violations :494
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) (InPolygon),(InPolygon)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (IsVia),(IsVia)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Region (0 hole(s)) L1
+   Violation between Un-Routed Net Constraint: Region (0 hole(s)) L1
+   Violation between Un-Routed Net Constraint: 
+   Violation between Un-Routed Net Constraint: 
+   Violation between Un-Routed Net Constraint: 
+   Violation between Un-Routed Net Constraint: 
+Rule Violations :6
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) (InPolygon),(All)
+Rule Violations :0
+
+
+Violations Detected : 500
+Time Elapsed        : 00:00:02

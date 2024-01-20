@@ -1,0 +1,48 @@
+** ECO In Report **
+
+Mon Jan 23 17:05:03 2017
+
+Input  File : D:\Projects\AltiumProjects\Za Joro BTF 16\BTF16_2\PADS\BTF16_2\Block.eco
+Current Job : 73xxxx_PCB-Name_2Layers.pcb
+
+
+
+Line 720 , Section *SPLITNET*
+* WARNING: Splitting a Net $1I64\V_2 in desired fashion requires deletion of more than one connection
+* Deleting connection C77.2-C78.2 ...
+* Deleting connection C74.2-C75.2 ...
+* Deleting connection C76.2-U2.36 ...
+* WARNING: Added connection between U4.1 C21.1 to keep continuity of net $1I64\V_2
+* WARNING: Added connection between C72.2 C78.2 to keep continuity of net $1I64\V_2
+
+Line 730 , Section *SPLITNET*
+* WARNING: Splitting a Net $1I64\V_2 in desired fashion requires deletion of more than one connection
+* Deleting connection C72.2-C79.2 ...
+* Deleting connection C72.2-C78.2 ...
+* WARNING: Added connection between C78.2 C79.2 to keep continuity of net $1I69\PWR2
+
+Line 751 , Section *SPLITNET*
+* WARNING: Splitting a Net $1I64\V_3 in desired fashion requires deletion of more than one connection
+* Deleting connection C126.2-C127.2 ...
+* Deleting connection C129.2-C130.2 ...
+* WARNING: Added connection between C126.2 C130.2 to keep continuity of net $1I64\V_3
+
+Line 761 , Section *SPLITNET*
+* WARNING: Splitting a Net $1I64\V_3 in desired fashion requires deletion of more than one connection
+* Deleting connection C121.2-C79.1 ...
+* Deleting connection U5.36-C78.1 ...
+* WARNING: Added connection between U2.2 C121.2 to keep continuity of net $1I64\V_3
+
+Line 771 , Section *SPLITNET*
+* WARNING: Splitting a Net $1I64\V_3 in desired fashion requires deletion of more than one connection
+* Deleting connection C123.2-C124.2 ...
+* Deleting connection C126.2-C130.2 ...
+* Deleting connection U2.2-C121.2 ...
+* WARNING: Added connection between U2.2 C124.2 to keep continuity of net $1I64\V_3
+* WARNING: Added connection between C123.2 C130.2 to keep continuity of net $1I69\PWR8
+
+Line 839 , Section *SPLITNET*
+* WARNING: Splitting a Net $1I64\V_6 in desired fashion requires deletion of more than one connection
+* Deleting connection C148.1-C147.1 ...
+* Deleting connection C145.1-C150.1 ...
+* WARNING: Added connection between C149.1 C150.1 to keep continuity of net $1I74\PWR15

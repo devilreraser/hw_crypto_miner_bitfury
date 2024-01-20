@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=BTF16.SchDoc
+Record=SheetSymbol|Record=SheetSymbol|SourceDocument=BTF16.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=MCU.SchDoc|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|Record=SheetSymbol|SourceDocument=BTF16.SchDoc|Designator=A1|SchDesignator=repeat(A,1,1)|FileName=ASIC.SchDoc|SymbolType=Normal|RawFileName=ASIC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|Record=SheetSymbol|SourceDocument=BTF16.SchDoc|Designator=P1|SchDesignator=repeat(P,1,2)|FileName=POWER.SchDoc|SymbolType=Normal|RawFileName=POWER.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|Record=SheetSymbol|SourceDocument=BTF16.SchDoc|Designator=P2|SchDesignator=repeat(P,1,2)|FileName=POWER.SchDoc|SymbolType=Normal|RawFileName=POWER.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

@@ -1,0 +1,4891 @@
+
+(pcb "BTF16_2.Block_PADS100.Block.db"
+	(version "5.0.0")
+	(units "basic")
+	(config_properties
+		(attributes
+			(attval "PcbConfigName"
+ "C:\MentorGraphics\PADSVX.1.2\SDD_HOME/standard/pads100.cfg")
+			(attval "CnsFile"
+ "C:\MentorGraphics\PADSVX.1.2\SDD_HOME\standard\isis\pads100.cns")
+			(attval "BeAdapter" "PADS100")
+			(attval "FeAdapter" "DxDesigner")
+			(attval "SYSCONFIG" "pcbfwd")
+			(attval "LASTSYSCONFIG" "pcbfwd")))
+	(project_properties
+		(attributes
+			(attval "EPLANNER_DSN" "1.0")))
+	(part_library
+		(part "SMT_INDM135130X800N")
+		(logical_part_mapping "SMT_INDM135130X800N"
+			(comp "L2" "L1"))
+		(logical_part "SMT_INDM135130X800N"
+			(slots
+				(slot "L__SMT_INDM135130X800N_1"
+					(attributes
+						(attval "DEVICE" "L")
+						(attval "PKG_TYPE" "SMT_INDM135130X800N")
+						(attval "REFDES" "L?")
+						(attval "Value" ""))))
+			(pin 2  3 "L__SMT_INDM135130X800N_1" 0 "2" 0)
+			(pin 1  3 "L__SMT_INDM135130X800N_1" 0 "1" 0))
+		(part "SMD_TP_100-254")
+		(logical_part_mapping "SMD_TP_100-254"
+			(comp "TP6" "TP5" "TP4" "TP3" "TP2" "TP1"))
+		(logical_part "SMD_TP_100-254"
+			(slots
+				(slot "TEST_POINT_1__SMD_TP_100-254_1"
+					(attributes
+						(attval "DEVICE" "TEST_POINT_1")
+						(attval "PKG_TYPE" "SMD_TP_100-254")
+						(attval "REFDES" "TP?")
+						(attval "Value" "100_254"))))
+			(pin 1  3 "TEST_POINT_1__SMD_TP_100-254_1" 0 "1" 0))
+		(part "SMD_SOT457_SOT95P275X110-6N")
+		(logical_part_mapping "SMD_SOT457_SOT95P275X110-6N"
+			(comp "U39"))
+		(logical_part "SMD_SOT457_SOT95P275X110-6N"
+			(slots
+				(slot "D_TVS_QUAD_C1A2C3C4A5C6__SMD_SOT457_SOT95P275X110-6N_1"
+					(attributes
+						(attval "DEVICE" "D_TVS_QUAD_C1A2C3C4A5C6")
+						(attval "PKG_TYPE" "SMD_SOT457_SOT95P275X110-6N")
+						(attval "REFDES" "U?")
+						(attval "Value" "SMS05T1G"))))
+			(pin 5  3 "D_TVS_QUAD_C1A2C3C4A5C6__SMD_SOT457_SOT95P275X110-6N_1" 0 "5" 0)
+			(pin 6  3 "D_TVS_QUAD_C1A2C3C4A5C6__SMD_SOT457_SOT95P275X110-6N_1" 0 "6" 0)
+			(pin 4  3 "D_TVS_QUAD_C1A2C3C4A5C6__SMD_SOT457_SOT95P275X110-6N_1" 0 "4" 0)
+			(pin 2  3 "D_TVS_QUAD_C1A2C3C4A5C6__SMD_SOT457_SOT95P275X110-6N_1" 0 "2" 0)
+			(pin 3  3 "D_TVS_QUAD_C1A2C3C4A5C6__SMD_SOT457_SOT95P275X110-6N_1" 0 "3" 0)
+			(pin 1  3 "D_TVS_QUAD_C1A2C3C4A5C6__SMD_SOT457_SOT95P275X110-6N_1" 0 "1" 0))
+		(part "SMD_SON40P330X330X100-17N")
+		(logical_part_mapping "SMD_SON40P330X330X100-17N"
+			(comp "U44" "U43" "U42" "U41"))
+		(logical_part "SMD_SON40P330X330X100-17N"
+			(slots
+				(slot "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1"
+					(attributes
+						(attval "Description" "TEXAS INSTRUMENDTS BUCK BOOST DC-DC")
+						(attval "DEVICE" "IC_CSD95379Q3M")
+						(attval "PKG_TYPE" "SMD_SON40P330X330X100-17N")
+						(attval "REFDES" "U?")
+						(attval "Value" "CSD95379Q3M")))
+				(slot "IC_CSD97394Q4M__SMD_SON40P330X330X100-17N_2"
+					(attributes
+						(attval "Description" "TEXAS INSTRUMENDTS BUCK BOOST DC-DC")
+						(attval "DEVICE" "IC_CSD97394Q4M")
+						(attval "PKG_TYPE" "SMD_SON40P330X330X100-17N")
+						(attval "REFDES" "U?")
+						(attval "Value" "CSD97394Q4M"))))
+			(pin 17  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "PGND-2" 0)
+			(pin 16  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "PWM" 0)
+			(pin 15  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "N/A-2" 0)
+			(pin 14  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "BOOT" 0)
+			(pin 13  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "BOOT_R" 0)
+			(pin 12  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "VIN-4" 0)
+			(pin 11  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "VIN-3" 0)
+			(pin 10  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "VIN-2" 0)
+			(pin 9  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "VIN-1" 0)
+			(pin 8  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "VSW-4" 0)
+			(pin 7  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "VSW-1" 0)
+			(pin 6  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "VSW-2" 0)
+			(pin 5  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "VSW-3" 0)
+			(pin 4  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "PGND-1" 0)
+			(pin 3  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "VDD" 0)
+			(pin 2  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "N/A-1" 0)
+			(pin 1  3 "IC_CSD95379Q3M__SMD_SON40P330X330X100-17N_1" 0 "~SKIP" 0))
+		(part "SMD_SOIC127P1030X265-20N")
+		(logical_part_mapping "SMD_SOIC127P1030X265-20N"
+			(comp "U37"))
+		(logical_part "SMD_SOIC127P1030X265-20N"
+			(slots
+				(slot "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1"
+					(attributes
+						(attval "DEVICE" "IC_PIC16F1459")
+						(attval "PKG_TYPE" "SMD_SOIC127P1030X265-20N")
+						(attval "REFDES" "U?")
+						(attval "Value" "PIC16F1459T-E/SO"))))
+			(pin 17  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "VUSB3V3" 0)
+			(pin 20  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "VSS" 0)
+			(pin 1  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "VDD" 0)
+			(pin 9  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RC7" 0)
+			(pin 8  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RC6" 0)
+			(pin 5  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RC5" 0)
+			(pin 6  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RC4" 0)
+			(pin 7  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RC3" 0)
+			(pin 14  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RC2" 0)
+			(pin 15  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RC1/ICSPCLK" 0)
+			(pin 16  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RC0/ICSPDAT" 0)
+			(pin 10  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RB7" 0)
+			(pin 11  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RB6" 0)
+			(pin 12  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RB5" 0)
+			(pin 13  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RB4" 0)
+			(pin 2  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RA5" 0)
+			(pin 3  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RA4" 0)
+			(pin 18  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RA1/D-/ICSPCLK" 0)
+			(pin 19  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "RA0/D+/ICSPDAT" 0)
+			(pin 4  3 "IC_PIC16F1459__SMD_SOIC127P1030X265-20N_1" 0 "MCLR/VPP/RA3" 0))
+		(part "SMD_SOIC127P600X175-14N")
+		(logical_part_mapping "SMD_SOIC127P600X175-14N"
+			(comp "U38"))
+		(logical_part "SMD_SOIC127P600X175-14N"
+			(slots
+				(slot "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1"
+					(attributes
+						(attval "DEVICE" "IC_PIC16F1454TESL-SO14")
+						(attval "PKG_TYPE" "SMD_SOIC127P600X175-14N")
+						(attval "REFDES" "U?")
+						(attval "Value" "PIC16F1454T-E/SL"))))
+			(pin 14  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0 "VSS" 0)
+			(pin 13  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0
+ "RA0/D+/ICSPDAT" 0)
+			(pin 12  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0
+ "RA1/D-/ICSPCLK" 0)
+			(pin 11  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0 "VUSB3V3" 0)
+			(pin 10  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0
+ "RC0/ICSPDAT" 0)
+			(pin 9  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0
+ "RC1/ICSPCLK" 0)
+			(pin 8  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0 "RC2" 0)
+			(pin 7  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0 "RC3" 0)
+			(pin 6  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0 "RC4" 0)
+			(pin 5  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0 "RC5" 0)
+			(pin 4  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0
+ "MCLR/VPP/RA3" 0)
+			(pin 3  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0 "RA4" 0)
+			(pin 2  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0 "RA5" 0)
+			(pin 1  3 "IC_PIC16F1454TESL_SO14__SMD_SOIC127P600X175-14N_1" 0 "VDD" 0))
+		(part "SMD_SOIC127P600X175-8N")
+		(logical_part_mapping "SMD_SOIC127P600X175-8N"
+			(comp "U40"))
+		(logical_part "SMD_SOIC127P600X175-8N"
+			(slots
+				(slot "IC_LM2931AD_5_0R2G_SO_8__SMD_SOIC127P600X175-8N_1"
+					(attributes
+						(attval "DEVICE" "IC_LM2931AD-5_0R2G_SO-8")
+						(attval "PKG_TYPE" "SMD_SOIC127P600X175-8N")
+						(attval "REFDES" "U?")
+						(attval "Value" "AP78L05SG-13"))))
+			(pin 1  3 "IC_LM2931AD_5_0R2G_SO_8__SMD_SOIC127P600X175-8N_1" 0 "OUTPUT" 0)
+			(pin 2  3 "IC_LM2931AD_5_0R2G_SO_8__SMD_SOIC127P600X175-8N_1" 0 "GND-2" 0)
+			(pin 6  3 "IC_LM2931AD_5_0R2G_SO_8__SMD_SOIC127P600X175-8N_1" 0 "GND-3" 0)
+			(pin 3  3 "IC_LM2931AD_5_0R2G_SO_8__SMD_SOIC127P600X175-8N_1" 0 "GND-1" 0)
+			(pin 4  3 "IC_LM2931AD_5_0R2G_SO_8__SMD_SOIC127P600X175-8N_1" 0 "N.C.-1" 0)
+			(pin 5  3 "IC_LM2931AD_5_0R2G_SO_8__SMD_SOIC127P600X175-8N_1" 0 "N.C.-2" 0)
+			(pin 8  3 "IC_LM2931AD_5_0R2G_SO_8__SMD_SOIC127P600X175-8N_1" 0 "INPUT" 0)
+			(pin 7  3 "IC_LM2931AD_5_0R2G_SO_8__SMD_SOIC127P600X175-8N_1" 0 "GND-4" 0))
+		(part "SMD_SOIC127P600X110-9AN")
+		(logical_part_mapping "SMD_SOIC127P600X110-9AN"
+			(comp "Q2" "Q1"))
+		(logical_part "SMD_SOIC127P600X110-9AN"
+			(slots
+				(slot "MOS_N_D1_S1S2S3G4D5D6D7D8__SMD_SOIC127P600X110-9AN_1"
+					(attributes
+						(attval "DEVICE" "MOS_N_D1_S1S2S3G4D5D6D7D8")
+						(attval "PKG_TYPE" "SMD_SOIC127P600X110-9AN")
+						(attval "REFDES" "Q?")
+						(attval "Value" "AP1RA03GMT-HF-3"))))
+			(pin 8  3 "MOS_N_D1_S1S2S3G4D5D6D7D8__SMD_SOIC127P600X110-9AN_1" 0 "D-1" 0)
+			(pin 7  3 "MOS_N_D1_S1S2S3G4D5D6D7D8__SMD_SOIC127P600X110-9AN_1" 0 "D-2" 0)
+			(pin 6  3 "MOS_N_D1_S1S2S3G4D5D6D7D8__SMD_SOIC127P600X110-9AN_1" 0 "D-3" 0)
+			(pin 5  3 "MOS_N_D1_S1S2S3G4D5D6D7D8__SMD_SOIC127P600X110-9AN_1" 0 "D-4" 0)
+			(pin 2  3 "MOS_N_D1_S1S2S3G4D5D6D7D8__SMD_SOIC127P600X110-9AN_1" 0 "S-1" 0)
+			(pin 1  3 "MOS_N_D1_S1S2S3G4D5D6D7D8__SMD_SOIC127P600X110-9AN_1" 0 "S-2" 0)
+			(pin 3  3 "MOS_N_D1_S1S2S3G4D5D6D7D8__SMD_SOIC127P600X110-9AN_1" 0 "S-3" 0)
+			(pin 4  3 "MOS_N_D1_S1S2S3G4D5D6D7D8__SMD_SOIC127P600X110-9AN_1" 0 "G" 0))
+		(part "SMD_QFN50P600X600X175-36AN")
+		(logical_part_mapping "SMD_QFN50P600X600X175-36AN"
+			(comp "U29" "U28" "U27" "U26" "U25" "U24" "U23" "U22" "U20" "U19" "U18" "U17" "U16" "U15" "U14" "U13" "U12" "U11" "U10" "U8"
+ "U7" "U6" "U5" "U4" "U3" "U2" "U1"))
+		(logical_part "SMD_QFN50P600X600X175-36AN"
+			(slots
+				(slot "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1"
+					(attributes
+						(attval "Description" "BITFURY 2016 16 NM")
+						(attval "DEVICE" "IC_BITFURY16")
+						(attval "PKG_TYPE" "SMD_QFN50P600X600X175-36AN")
+						(attval "REFDES" "U?")
+						(attval "Value" ""))))
+			(pin 24  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-9" 0)
+			(pin 16  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-8" 0)
+			(pin 18  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-7" 0)
+			(pin 14  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-6" 0)
+			(pin 21  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-5" 0)
+			(pin 20  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-4" 0)
+			(pin 8  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-33" 0)
+			(pin 7  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-32" 0)
+			(pin 6  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-31" 0)
+			(pin 5  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-30" 0)
+			(pin 19  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-3" 0)
+			(pin 4  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-29" 0)
+			(pin 3  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-28" 0)
+			(pin 2  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-27" 0)
+			(pin 1  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-26" 0)
+			(pin 10  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-25" 0)
+			(pin 9  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-24" 0)
+			(pin 11  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-23" 0)
+			(pin 12  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-22" 0)
+			(pin 13  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-21" 0)
+			(pin 35  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-20" 0)
+			(pin 15  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-2" 0)
+			(pin 34  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-19" 0)
+			(pin 33  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-18" 0)
+			(pin 32  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-17" 0)
+			(pin 31  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-16" 0)
+			(pin 30  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-15" 0)
+			(pin 29  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-14" 0)
+			(pin 28  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-13" 0)
+			(pin 27  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-12" 0)
+			(pin 26  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-11" 0)
+			(pin 25  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-10" 0)
+			(pin 17  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "VDD-1" 0)
+			(pin 23  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "SDATA" 0)
+			(pin 22  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "SCK" 0)
+			(pin 36  3 "IC_BITFURY16__SMD_QFN50P600X600X175-36AN_1" 0 "EP" 0))
+		(part "SMD_QFN40P500X500X80-41N")
+		(logical_part_mapping "SMD_QFN40P500X500X80-41N"
+			(comp "U33" "U21" "U9"))
+		(logical_part "SMD_QFN40P500X500X80-41N"
+			(slots
+				(slot "IC_BTC250__SMD_QFN40P500X500X80-41N_1"
+					(attributes
+						(attval "DEVICE" "IC_BTC250")
+						(attval "PKG_TYPE" "SMD_QFN40P500X500X80-41N")
+						(attval "REFDES" "U?")
+						(attval "Value" ""))))
+			(pin 21  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "V_9" 0)
+			(pin 24  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "V_8" 0)
+			(pin 27  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "V_7" 0)
+			(pin 30  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "V_6" 0)
+			(pin 33  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "V_5" 0)
+			(pin 36  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "V_4" 0)
+			(pin 39  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "V_3" 0)
+			(pin 2  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "V_2" 0)
+			(pin 5  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "V_1" 0)
+			(pin 8  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "V_0" 0)
+			(pin 41  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "VSS" 0)
+			(pin 17  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "VDD" 0)
+			(pin 15  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "TX_2" 0)
+			(pin 13  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "TX_1" 0)
+			(pin 11  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "TX_0" 0)
+			(pin 16  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "RX_2" 0)
+			(pin 14  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "RX_1" 0)
+			(pin 12  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "RX_0" 0)
+			(pin 18  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "PARITY" 0)
+			(pin 22  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "D_9" 0)
+			(pin 25  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "D_8" 0)
+			(pin 28  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "D_7" 0)
+			(pin 31  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "D_6" 0)
+			(pin 34  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "D_5" 0)
+			(pin 37  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "D_4" 0)
+			(pin 40  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "D_3" 0)
+			(pin 3  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "D_2" 0)
+			(pin 19  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "D_10" 0)
+			(pin 6  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "D_1" 0)
+			(pin 9  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "D_0" 0)
+			(pin 23  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "C_9" 0)
+			(pin 26  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "C_8" 0)
+			(pin 29  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "C_7" 0)
+			(pin 32  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "C_6" 0)
+			(pin 35  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "C_5" 0)
+			(pin 38  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "C_4" 0)
+			(pin 1  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "C_3" 0)
+			(pin 4  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "C_2" 0)
+			(pin 20  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "C_10" 0)
+			(pin 7  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "C_1" 0)
+			(pin 10  3 "IC_BTC250__SMD_QFN40P500X500X80-41N_1" 0 "C_0" 0))
+		(part "SMD_LED2012X100N")
+		(logical_part_mapping "SMD_LED2012X100N"
+			(comp "D3" "D1"))
+		(logical_part "SMD_LED2012X100N"
+			(slots
+				(slot "LED__SMD_LED2012X100N_1"
+					(attributes
+						(attval "DEVICE" "LED")
+						(attval "PKG_TYPE" "SMD_LED2012X100N")
+						(attval "REFDES" "D?")
+						(attval "Value" "KP-2012CGCK"))))
+			(pin 1  3 "LED__SMD_LED2012X100N_1" 0 "C" 0)
+			(pin 2  3 "LED__SMD_LED2012X100N_1" 0 "A" 0))
+		(part "SMD_DO214AC_SMC")
+		(logical_part_mapping "SMD_DO214AC_SMC"
+			(comp "D6" "D5" "D4" "D2"))
+		(logical_part "SMD_DO214AC_SMC"
+			(slots
+				(slot "D_TVS_UNI__SMD_DO214AC_SMC_1"
+					(attributes
+						(attval "DEVICE" "D_TVS_UNI")
+						(attval "PKG_TYPE" "SMD_DO214AC_SMC")
+						(attval "REFDES" "D?")
+						(attval "Value" "SMCJ12A"))))
+			(pin 1  3 "D_TVS_UNI__SMD_DO214AC_SMC_1" 0 "C" 0)
+			(pin 2  3 "D_TVS_UNI__SMD_DO214AC_SMC_1" 0 "A" 0))
+		(part "SMD_CON-CVILUX-CU04-SCM15B0")
+		(logical_part_mapping "SMD_CON-CVILUX-CU04-SCM15B0"
+			(comp "J3"))
+		(logical_part "SMD_CON-CVILUX-CU04-SCM15B0"
+			(slots
+				(slot "CON_USB_MINI_1__SMD_CON-CVILUX-CU04-SCM15B0_1"
+					(attributes
+						(attval "DEVICE" "CON_USB_MINI_1")
+						(attval "PKG_TYPE" "SMD_CON-CVILUX-CU04-SCM15B0")
+						(attval "REFDES" "J?")
+						(attval "Value" "USB MINI"))))
+			(pin 9  3 "CON_USB_MINI_1__SMD_CON-CVILUX-CU04-SCM15B0_1" 0 "9" 0)
+			(pin 8  3 "CON_USB_MINI_1__SMD_CON-CVILUX-CU04-SCM15B0_1" 0 "8" 0)
+			(pin 7  3 "CON_USB_MINI_1__SMD_CON-CVILUX-CU04-SCM15B0_1" 0 "7" 0)
+			(pin 6  3 "CON_USB_MINI_1__SMD_CON-CVILUX-CU04-SCM15B0_1" 0 "6" 0)
+			(pin 5  3 "CON_USB_MINI_1__SMD_CON-CVILUX-CU04-SCM15B0_1" 0 "5" 0)
+			(pin 4  3 "CON_USB_MINI_1__SMD_CON-CVILUX-CU04-SCM15B0_1" 0 "4" 0)
+			(pin 3  3 "CON_USB_MINI_1__SMD_CON-CVILUX-CU04-SCM15B0_1" 0 "3" 0)
+			(pin 2  3 "CON_USB_MINI_1__SMD_CON-CVILUX-CU04-SCM15B0_1" 0 "2" 0)
+			(pin 1  3 "CON_USB_MINI_1__SMD_CON-CVILUX-CU04-SCM15B0_1" 0 "1" 0))
+		(part "SMD_0805_CAPC2012X145N")
+		(logical_part_mapping "SMD_0805_CAPC2012X145N"
+			(comp "C228" "C227" "C226" "C225" "C224" "C223" "C222" "C221" "C218" "C217" "C216" "C215" "C214" "C213" "C212"
+ "C211"))
+		(logical_part "SMD_0805_CAPC2012X145N"
+			(slots
+				(slot "C__SMD_0805_CAPC2012X145N_1"
+					(attributes
+						(attval "DEVICE" "C")
+						(attval "PKG_TYPE" "SMD_0402_CAPC1005X70N")
+						(attval "REFDES" "C?")
+						(attval "Value" "10UF"))))
+			(pin 2  3 "C__SMD_0805_CAPC2012X145N_1" 0 "2" 0)
+			(pin 1  3 "C__SMD_0805_CAPC2012X145N_1" 0 "1" 0))
+		(part "SMD_0603_RESC1608X55N")
+		(logical_part_mapping "SMD_0603_RESC1608X55N"
+			(comp "R25" "R24" "R23" "R22" "R21" "R20" "R19" "R18" "R14" "R13" "R11"))
+		(logical_part "SMD_0603_RESC1608X55N"
+			(slots
+				(slot "R__SMD_0603_RESC1608X55N_1"
+					(attributes
+						(attval "DEVICE" "R")
+						(attval "PKG_TYPE" "SMD_0603_RESC1608X55N")
+						(attval "REFDES" "R?")
+						(attval "Value" "0R"))))
+			(pin 2  3 "R__SMD_0603_RESC1608X55N_1" 0 "2" 0)
+			(pin 1  3 "R__SMD_0603_RESC1608X55N_1" 0 "1" 0))
+		(part "SMD_0603_CAPC1608X95N")
+		(logical_part_mapping "SMD_0603_CAPC1608X95N"
+			(comp "C219" "C209" "C208"))
+		(logical_part "SMD_0603_CAPC1608X95N"
+			(slots
+				(slot "C__SMD_0603_CAPC1608X95N_1"
+					(attributes
+						(attval "DEVICE" "C")
+						(attval "PKG_TYPE" "SMD_0402_CAPC1005X70N")
+						(attval "REFDES" "C?")
+						(attval "Value" "10UF"))))
+			(pin 2  3 "C__SMD_0603_CAPC1608X95N_1" 0 "2" 0)
+			(pin 1  3 "C__SMD_0603_CAPC1608X95N_1" 0 "1" 0))
+		(part "SMD_0603_CAPC1608X80N")
+		(logical_part_mapping "SMD_0603_CAPC1608X80N"
+			(comp "C207"))
+		(logical_part "SMD_0603_CAPC1608X80N"
+			(slots
+				(slot "C__SMD_0603_CAPC1608X80N_1"
+					(attributes
+						(attval "DEVICE" "C")
+						(attval "PKG_TYPE" "SMD_0402_CAPC1005X70N")
+						(attval "REFDES" "C?")
+						(attval "Value" "10UF"))))
+			(pin 2  3 "C__SMD_0603_CAPC1608X80N_1" 0 "2" 0)
+			(pin 1  3 "C__SMD_0603_CAPC1608X80N_1" 0 "1" 0))
+		(part "SMD_0402_RESC1005X37N")
+		(logical_part_mapping "SMD_0402_RESC1005X37N"
+			(comp "R17" "R16" "R15" "R12" "R10" "R9" "R8" "R7" "R6" "R5" "R4" "R3" "R2" "R1"))
+		(logical_part "SMD_0402_RESC1005X37N"
+			(slots
+				(slot "R__SMD_0402_RESC1005X37N_1"
+					(attributes
+						(attval "DEVICE" "R")
+						(attval "PKG_TYPE" "SMD_0603_RESC1608X55N")
+						(attval "REFDES" "R?")
+						(attval "Value" "0R"))))
+			(pin 2  3 "R__SMD_0402_RESC1005X37N_1" 0 "2" 0)
+			(pin 1  3 "R__SMD_0402_RESC1005X37N_1" 0 "1" 0))
+		(part "SMD_0402_CAPC1005X70N")
+		(logical_part_mapping "SMD_0402_CAPC1005X70N"
+			(comp "C168" "C167" "C166" "C165" "C164" "C163" "C162" "C161" "C160" "C159" "C158" "C157" "C156" "C155" "C154"
+ "C153" "C152" "C151" "C150" "C149" "C148" "C147" "C146" "C145" "C144" "C143" "C142" "C141" "C140" "C139" "C138"
+ "C137" "C136" "C135" "C134" "C133" "C132" "C131" "C130" "C129" "C128" "C127" "C126" "C125" "C124" "C123" "C122"
+ "C121" "C119" "C118" "C117" "C116" "C115" "C114" "C113" "C112" "C111" "C110" "C109" "C108" "C107" "C106" "C105"
+ "C104" "C103" "C102" "C101" "C100" "C99" "C98" "C97" "C96" "C95" "C94" "C93" "C92" "C91" "C90" "C89" "C88" "C87" "C86"
+ "C85" "C84" "C83" "C82" "C81" "C80" "C79" "C78" "C77" "C76" "C75" "C74" "C73" "C72" "C67" "C66" "C65" "C64" "C63" "C62" "C61"
+ "C60" "C59" "C58" "C57" "C56" "C55" "C54" "C53" "C52" "C51" "C50" "C48" "C47" "C46" "C45" "C44" "C43" "C42" "C41" "C40" "C39"
+ "C38" "C37" "C36" "C35" "C34" "C33" "C32" "C31" "C30" "C29" "C28" "C27" "C26" "C25" "C24" "C23" "C22" "C21" "C20" "C19" "C18"
+ "C17" "C16" "C15" "C14" "C13" "C12" "C11" "C10" "C9" "C8" "C7" "C6" "C5" "C4" "C3" "C2" "C1"))
+		(logical_part "SMD_0402_CAPC1005X70N"
+			(slots
+				(slot "C__SMD_0402_CAPC1005X70N_1"
+					(attributes
+						(attval "DEVICE" "C")
+						(attval "PKG_TYPE" "SMD_0402_CAPC1005X70N")
+						(attval "REFDES" "C?")
+						(attval "Value" "10UF"))))
+			(pin 2  3 "C__SMD_0402_CAPC1005X70N_1" 0 "2" 0)
+			(pin 1  3 "C__SMD_0402_CAPC1005X70N_1" 0 "1" 0))
+		(part "SMD_0402_CAPC1005X55N")
+		(logical_part_mapping "SMD_0402_CAPC1005X55N"
+			(comp "C220" "C210" "C206" "C187" "C120" "C71" "C70" "C69" "C68" "C49"))
+		(logical_part "SMD_0402_CAPC1005X55N"
+			(slots
+				(slot "C__SMD_0402_CAPC1005X55N_1"
+					(attributes
+						(attval "DEVICE" "C")
+						(attval "PKG_TYPE" "SMD_0402_CAPC1005X70N")
+						(attval "REFDES" "C?")
+						(attval "Value" "10UF"))))
+			(pin 2  3 "C__SMD_0402_CAPC1005X55N_1" 0 "2" 0)
+			(pin 1  3 "C__SMD_0402_CAPC1005X55N_1" 0 "1" 0))
+		(part "PTH_TO220")
+		(logical_part_mapping "PTH_TO220"
+			(comp "U30"))
+		(logical_part "PTH_TO220"
+			(slots
+				(slot "IC_VIN1GND2VOUT3__PTH_TO220_1"
+					(attributes
+						(attval "DEVICE" "IC_VIN1GND2VOUT3")
+						(attval "PKG_TYPE" "PTH_TO220")
+						(attval "REFDES" "U?")
+						(attval "Value" "KA78M15"))))
+			(pin 3  3 "IC_VIN1GND2VOUT3__PTH_TO220_1" 0 "VOUT" 0)
+			(pin 1  3 "IC_VIN1GND2VOUT3__PTH_TO220_1" 0 "VIN" 0)
+			(pin 2  3 "IC_VIN1GND2VOUT3__PTH_TO220_1" 0 "GND" 0))
+		(part "PTH_MTG400_700")
+		(logical_part_mapping "PTH_MTG400_700"
+			(comp "J41" "J40" "J39" "J38" "J37" "J36" "J35" "J34" "J33" "J32" "J31" "J30" "J29" "J28" "J27" "J26" "J25" "J24" "J23" "J22"
+ "J21" "J20" "J19" "J18" "J17" "J16" "J15" "J14" "J13" "J12" "J11" "J10"))
+		(logical_part "PTH_MTG400_700"
+			(slots
+				(slot "CON_1PIN__PTH_MTG400_700_1"
+					(attributes
+						(attval "DEVICE" "CON_1PIN")
+						(attval "PKG_TYPE" "PTH_MTG400_700")
+						(attval "REFDES" "J?")
+						(attval "Value" "PTH_MTG400_700"))))
+			(pin 1  3 "CON_1PIN__PTH_MTG400_700_1" 0 "1" 0))
+		(part "PTH_HDRV05W64P254_1X05")
+		(logical_part_mapping "PTH_HDRV05W64P254_1X05"
+			(comp "J2" "J1"))
+		(logical_part "PTH_HDRV05W64P254_1X05"
+			(slots
+				(slot "CON_5PINS__PTH_HDRV05W64P254_1X05_1"
+					(attributes
+						(attval "DEVICE" "CON_5PINS")
+						(attval "PKG_TYPE" "PTH_HDRV05W64P254_1X05")
+						(attval "REFDES" "J?")
+						(attval "Value" "CONN PCB 5P M S"))))
+			(pin 5  3 "CON_5PINS__PTH_HDRV05W64P254_1X05_1" 0 "5" 0)
+			(pin 4  3 "CON_5PINS__PTH_HDRV05W64P254_1X05_1" 0 "4" 0)
+			(pin 3  3 "CON_5PINS__PTH_HDRV05W64P254_1X05_1" 0 "3" 0)
+			(pin 2  3 "CON_5PINS__PTH_HDRV05W64P254_1X05_1" 0 "2" 0)
+			(pin 1  3 "CON_5PINS__PTH_HDRV05W64P254_1X05_1" 0 "1" 0))
+		(part "PTH_HDRV02W11060P500_1X02")
+		(logical_part_mapping "PTH_HDRV02W11060P500_1X02"
+			(comp "J7" "J6"))
+		(logical_part "PTH_HDRV02W11060P500_1X02"
+			(slots
+				(slot "CON_2PINS__PTH_HDRV02W11060P500_1X02_1"
+					(attributes
+						(attval "DEVICE" "CON_2PINS")
+						(attval "PKG_TYPE" "PTH_HDRV02W11060P500_1X02")
+						(attval "REFDES" "J?")
+						(attval "Value" "TS-501-2P"))))
+			(pin 2  3 "CON_2PINS__PTH_HDRV02W11060P500_1X02_1" 0 "2" 0)
+			(pin 1  3 "CON_2PINS__PTH_HDRV02W11060P500_1X02_1" 0 "1" 0))
+		(part "PTH_CON_WR-MRC4-6P_S")
+		(logical_part_mapping "PTH_CON_WR-MRC4-6P_S"
+			(comp "J9" "J8" "J5" "J4"))
+		(logical_part "PTH_CON_WR-MRC4-6P_S"
+			(slots
+				(slot "CON_2ROWS_6PINS_1__PTH_CON_WR-MRC4-6P_S_1"
+					(attributes
+						(attval "DEVICE" "CON_2ROWS_6PINS_1")
+						(attval "PKG_TYPE" "PTH_CON_WR-MRC4-6P_S")
+						(attval "REFDES" "J?")
+						(attval "Value" "WR-MPC4"))))
+			(pin 6  3 "CON_2ROWS_6PINS_1__PTH_CON_WR-MRC4-6P_S_1" 0 "6" 0)
+			(pin 5  3 "CON_2ROWS_6PINS_1__PTH_CON_WR-MRC4-6P_S_1" 0 "5" 0)
+			(pin 4  3 "CON_2ROWS_6PINS_1__PTH_CON_WR-MRC4-6P_S_1" 0 "4" 0)
+			(pin 2  3 "CON_2ROWS_6PINS_1__PTH_CON_WR-MRC4-6P_S_1" 0 "2" 0)
+			(pin 3  3 "CON_2ROWS_6PINS_1__PTH_CON_WR-MRC4-6P_S_1" 0 "3" 0)
+			(pin 1  3 "CON_2ROWS_6PINS_1__PTH_CON_WR-MRC4-6P_S_1" 0 "1" 0)))
+	(placement
+		(component "SMD_SON40P330X330X100-17N"
+			(place "U44" 0.0 0.0 top 0.0
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "TEXAS INSTRUMENDTS BUCK BOOST DC-DC")
+				(attval "Value" "CSD95379Q3M")
+				(attval "DEVICE" "SMD_SON40P330X330X100-17N")
+				(attval "REFDES" "U44")))
+		(component "SMD_SON40P330X330X100-17N"
+			(place "U43" 0.0 0.0 top 0.0
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "TEXAS INSTRUMENDTS BUCK BOOST DC-DC")
+				(attval "Value" "CSD97394Q4M")
+				(attval "DEVICE" "SMD_SON40P330X330X100-17N")
+				(attval "REFDES" "U43")))
+		(component "SMD_SON40P330X330X100-17N"
+			(place "U42" 0.0 0.0 top 0.0
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "TEXAS INSTRUMENDTS BUCK BOOST DC-DC")
+				(attval "Value" "CSD95379Q3M")
+				(attval "DEVICE" "SMD_SON40P330X330X100-17N")
+				(attval "REFDES" "U42")))
+		(component "SMD_SON40P330X330X100-17N"
+			(place "U41" 0.0 0.0 top 0.0
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "TEXAS INSTRUMENDTS BUCK BOOST DC-DC")
+				(attval "Value" "CSD97394Q4M")
+				(attval "DEVICE" "SMD_SON40P330X330X100-17N")
+				(attval "REFDES" "U41")))
+		(component "SMD_SOIC127P600X175-8N"
+			(place "U40" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "AP78L05SG-13")
+				(attval "DEVICE" "SMD_SOIC127P600X175-8N")
+				(attval "REFDES" "U40")))
+		(component "SMD_SOT457_SOT95P275X110-6N"
+			(place "U39" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "SMS05T1G")
+				(attval "DEVICE" "SMD_SOT457_SOT95P275X110-6N")
+				(attval "REFDES" "U39")))
+		(component "SMD_SOIC127P600X175-14N"
+			(place "U38" 0.0 0.0 top 0.0
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PIC16F1454T-E/SL")
+				(attval "DEVICE" "SMD_SOIC127P600X175-14N")
+				(attval "REFDES" "U38")))
+		(component "SMD_SOIC127P1030X265-20N"
+			(place "U37" 0.0 0.0 top 0.0
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PIC16F1459T-E/SO")
+				(attval "DEVICE" "SMD_SOIC127P1030X265-20N")
+				(attval "REFDES" "U37")))
+		(component "SMD_QFN40P500X500X80-41N"
+			(place "U33" 0.0 0.0 top 0.0
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN")
+				(comp_pin "39" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "41" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "37" 0.0 0.0 "IN")
+				(comp_pin "40" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "38" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN40P500X500X80-41N")
+				(attval "REFDES" "U33")))
+		(component "PTH_TO220"
+			(place "U30" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "KA78M15")
+				(attval "DEVICE" "PTH_TO220")
+				(attval "REFDES" "U30")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U29" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U29")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U28" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U28")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U27" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U27")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U26" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U26")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U25" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U25")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U24" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U24")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U23" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U23")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U22" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U22")))
+		(component "SMD_QFN40P500X500X80-41N"
+			(place "U21" 0.0 0.0 top 0.0
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN")
+				(comp_pin "39" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "41" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "37" 0.0 0.0 "IN")
+				(comp_pin "40" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "38" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN40P500X500X80-41N")
+				(attval "REFDES" "U21")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U20" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U20")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U19" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U19")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U18" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U18")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U17" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U17")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U16" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U16")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U15" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U15")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U14" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U14")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U13" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U13")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U12" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U12")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U11" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U11")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U10" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U10")))
+		(component "SMD_QFN40P500X500X80-41N"
+			(place "U9" 0.0 0.0 top 0.0
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN")
+				(comp_pin "39" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "41" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "37" 0.0 0.0 "IN")
+				(comp_pin "40" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "38" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN40P500X500X80-41N")
+				(attval "REFDES" "U9")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U8" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U8")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U7" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U7")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U6" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U6")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U5" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U5")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U4" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U4")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U3" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U3")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U2" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U2")))
+		(component "SMD_QFN50P600X600X175-36AN"
+			(place "U1" 0.0 0.0 top 0.0
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BITFURY 2016 16 NM")
+				(attval "Value" "")
+				(attval "DEVICE" "SMD_QFN50P600X600X175-36AN")
+				(attval "REFDES" "U1")))
+		(component "SMD_TP_100-254"
+			(place "TP6" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100_254")
+				(attval "DEVICE" "SMD_TP_100-254")
+				(attval "REFDES" "TP6")))
+		(component "SMD_TP_100-254"
+			(place "TP5" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100_254")
+				(attval "DEVICE" "SMD_TP_100-254")
+				(attval "REFDES" "TP5")))
+		(component "SMD_TP_100-254"
+			(place "TP4" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100_254")
+				(attval "DEVICE" "SMD_TP_100-254")
+				(attval "REFDES" "TP4")))
+		(component "SMD_TP_100-254"
+			(place "TP3" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100_254")
+				(attval "DEVICE" "SMD_TP_100-254")
+				(attval "REFDES" "TP3")))
+		(component "SMD_TP_100-254"
+			(place "TP2" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100_254")
+				(attval "DEVICE" "SMD_TP_100-254")
+				(attval "REFDES" "TP2")))
+		(component "SMD_TP_100-254"
+			(place "TP1" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100_254")
+				(attval "DEVICE" "SMD_TP_100-254")
+				(attval "REFDES" "TP1")))
+		(component "SMD_0603_RESC1608X55N"
+			(place "R25" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "0R")
+				(attval "DEVICE" "SMD_0603_RESC1608X55N")
+				(attval "REFDES" "R25")))
+		(component "SMD_0603_RESC1608X55N"
+			(place "R24" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "0R")
+				(attval "DEVICE" "SMD_0603_RESC1608X55N")
+				(attval "REFDES" "R24")))
+		(component "SMD_0603_RESC1608X55N"
+			(place "R23" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "0R")
+				(attval "DEVICE" "SMD_0603_RESC1608X55N")
+				(attval "REFDES" "R23")))
+		(component "SMD_0603_RESC1608X55N"
+			(place "R22" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "0R")
+				(attval "DEVICE" "SMD_0603_RESC1608X55N")
+				(attval "REFDES" "R22")))
+		(component "SMD_0603_RESC1608X55N"
+			(place "R21" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "0R")
+				(attval "DEVICE" "SMD_0603_RESC1608X55N")
+				(attval "REFDES" "R21")))
+		(component "SMD_0603_RESC1608X55N"
+			(place "R20" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "0R")
+				(attval "DEVICE" "SMD_0603_RESC1608X55N")
+				(attval "REFDES" "R20")))
+		(component "SMD_0603_RESC1608X55N"
+			(place "R19" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "0R")
+				(attval "DEVICE" "SMD_0603_RESC1608X55N")
+				(attval "REFDES" "R19")))
+		(component "SMD_0603_RESC1608X55N"
+			(place "R18" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "0R")
+				(attval "DEVICE" "SMD_0603_RESC1608X55N")
+				(attval "REFDES" "R18")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R17" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "33R")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R17")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R16" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "33R")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R16")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R15" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "33R")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R15")))
+		(component "SMD_0603_RESC1608X55N"
+			(place "R14" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "330R")
+				(attval "DEVICE" "SMD_0603_RESC1608X55N")
+				(attval "REFDES" "R14")))
+		(component "SMD_0603_RESC1608X55N"
+			(place "R13" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "330R")
+				(attval "DEVICE" "SMD_0603_RESC1608X55N")
+				(attval "REFDES" "R13")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R12" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R12")))
+		(component "SMD_0603_RESC1608X55N"
+			(place "R11" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "20K")
+				(attval "DEVICE" "SMD_0603_RESC1608X55N")
+				(attval "REFDES" "R11")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R10" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R10")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R9" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R9")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R8" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R8")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R7" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R7")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R6" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R6")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R5" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R5")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R4" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R4")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R3")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R2")))
+		(component "SMD_0402_RESC1005X37N"
+			(place "R1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "DEVICE" "SMD_0402_RESC1005X37N")
+				(attval "REFDES" "R1")))
+		(component "SMD_SOIC127P600X110-9AN"
+			(place "Q2" 0.0 0.0 top 0.0
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "AP1RA03GMT-HF-3")
+				(attval "DEVICE" "SMD_SOIC127P600X110-9AN")
+				(attval "REFDES" "Q2")))
+		(component "SMD_SOIC127P600X110-9AN"
+			(place "Q1" 0.0 0.0 top 0.0
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "AP1RA03GMT-HF-3")
+				(attval "DEVICE" "SMD_SOIC127P600X110-9AN")
+				(attval "REFDES" "Q1")))
+		(component "SMT_INDM135130X800N"
+			(place "L2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "DEVICE" "SMT_INDM135130X800N")
+				(attval "REFDES" "L2")))
+		(component "SMT_INDM135130X800N"
+			(place "L1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "DEVICE" "SMT_INDM135130X800N")
+				(attval "REFDES" "L1")))
+		(component "PTH_MTG400_700"
+			(place "J41" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J41")))
+		(component "PTH_MTG400_700"
+			(place "J40" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J40")))
+		(component "PTH_MTG400_700"
+			(place "J39" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J39")))
+		(component "PTH_MTG400_700"
+			(place "J38" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J38")))
+		(component "PTH_MTG400_700"
+			(place "J37" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J37")))
+		(component "PTH_MTG400_700"
+			(place "J36" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J36")))
+		(component "PTH_MTG400_700"
+			(place "J35" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J35")))
+		(component "PTH_MTG400_700"
+			(place "J34" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J34")))
+		(component "PTH_MTG400_700"
+			(place "J33" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J33")))
+		(component "PTH_MTG400_700"
+			(place "J32" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J32")))
+		(component "PTH_MTG400_700"
+			(place "J31" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J31")))
+		(component "PTH_MTG400_700"
+			(place "J30" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J30")))
+		(component "PTH_MTG400_700"
+			(place "J29" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J29")))
+		(component "PTH_MTG400_700"
+			(place "J28" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J28")))
+		(component "PTH_MTG400_700"
+			(place "J27" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J27")))
+		(component "PTH_MTG400_700"
+			(place "J26" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J26")))
+		(component "PTH_MTG400_700"
+			(place "J25" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J25")))
+		(component "PTH_MTG400_700"
+			(place "J24" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J24")))
+		(component "PTH_MTG400_700"
+			(place "J23" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J23")))
+		(component "PTH_MTG400_700"
+			(place "J22" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J22")))
+		(component "PTH_MTG400_700"
+			(place "J21" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J21")))
+		(component "PTH_MTG400_700"
+			(place "J20" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J20")))
+		(component "PTH_MTG400_700"
+			(place "J19" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J19")))
+		(component "PTH_MTG400_700"
+			(place "J18" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J18")))
+		(component "PTH_MTG400_700"
+			(place "J17" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J17")))
+		(component "PTH_MTG400_700"
+			(place "J16" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J16")))
+		(component "PTH_MTG400_700"
+			(place "J15" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J15")))
+		(component "PTH_MTG400_700"
+			(place "J14" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J14")))
+		(component "PTH_MTG400_700"
+			(place "J13" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J13")))
+		(component "PTH_MTG400_700"
+			(place "J12" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J12")))
+		(component "PTH_MTG400_700"
+			(place "J11" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J11")))
+		(component "PTH_MTG400_700"
+			(place "J10" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "PTH_MTG400_700")
+				(attval "DEVICE" "PTH_MTG400_700")
+				(attval "REFDES" "J10")))
+		(component "PTH_CON_WR-MRC4-6P_S"
+			(place "J9" 0.0 0.0 top 0.0
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "WR-MPC4")
+				(attval "DEVICE" "PTH_CON_WR-MRC4-6P_S")
+				(attval "REFDES" "J9")))
+		(component "PTH_CON_WR-MRC4-6P_S"
+			(place "J8" 0.0 0.0 top 0.0
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "WR-MPC4")
+				(attval "DEVICE" "PTH_CON_WR-MRC4-6P_S")
+				(attval "REFDES" "J8")))
+		(component "PTH_HDRV02W11060P500_1X02"
+			(place "J7" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "TS-501-2P")
+				(attval "DEVICE" "PTH_HDRV02W11060P500_1X02")
+				(attval "REFDES" "J7")))
+		(component "PTH_HDRV02W11060P500_1X02"
+			(place "J6" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "TS-501-2P")
+				(attval "DEVICE" "PTH_HDRV02W11060P500_1X02")
+				(attval "REFDES" "J6")))
+		(component "PTH_CON_WR-MRC4-6P_S"
+			(place "J5" 0.0 0.0 top 0.0
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "WR-MPC4")
+				(attval "DEVICE" "PTH_CON_WR-MRC4-6P_S")
+				(attval "REFDES" "J5")))
+		(component "PTH_CON_WR-MRC4-6P_S"
+			(place "J4" 0.0 0.0 top 0.0
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "WR-MPC4")
+				(attval "DEVICE" "PTH_CON_WR-MRC4-6P_S")
+				(attval "REFDES" "J4")))
+		(component "SMD_CON-CVILUX-CU04-SCM15B0"
+			(place "J3" 0.0 0.0 top 0.0
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "USB MINI")
+				(attval "DEVICE" "SMD_CON-CVILUX-CU04-SCM15B0")
+				(attval "REFDES" "J3")))
+		(component "PTH_HDRV05W64P254_1X05"
+			(place "J2" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "CONN PCB 5P M S")
+				(attval "DEVICE" "PTH_HDRV05W64P254_1X05")
+				(attval "REFDES" "J2")))
+		(component "PTH_HDRV05W64P254_1X05"
+			(place "J1" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "CONN PCB 5P M S")
+				(attval "DEVICE" "PTH_HDRV05W64P254_1X05")
+				(attval "REFDES" "J1")))
+		(component "SMD_DO214AC_SMC"
+			(place "D6" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "SMCJ12A")
+				(attval "DEVICE" "SMD_DO214AC_SMC")
+				(attval "REFDES" "D6")))
+		(component "SMD_DO214AC_SMC"
+			(place "D5" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "SMCJ12A")
+				(attval "DEVICE" "SMD_DO214AC_SMC")
+				(attval "REFDES" "D5")))
+		(component "SMD_DO214AC_SMC"
+			(place "D4" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "SMCJ12A")
+				(attval "DEVICE" "SMD_DO214AC_SMC")
+				(attval "REFDES" "D4")))
+		(component "SMD_LED2012X100N"
+			(place "D3" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "KP-2012CGCK")
+				(attval "DEVICE" "SMD_LED2012X100N")
+				(attval "REFDES" "D3")))
+		(component "SMD_DO214AC_SMC"
+			(place "D2" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "SMCJ12A")
+				(attval "DEVICE" "SMD_DO214AC_SMC")
+				(attval "REFDES" "D2")))
+		(component "SMD_LED2012X100N"
+			(place "D1" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "KP-2012CGCK")
+				(attval "DEVICE" "SMD_LED2012X100N")
+				(attval "REFDES" "D1")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C228" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C228")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C227" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C227")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C226" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C226")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C225" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C225")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C224" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C224")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C223" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C223")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C222" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C222")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C221" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C221")))
+		(component "SMD_0402_CAPC1005X55N"
+			(place "C220" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X55N")
+				(attval "REFDES" "C220")))
+		(component "SMD_0603_CAPC1608X95N"
+			(place "C219" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1UF")
+				(attval "DEVICE" "SMD_0603_CAPC1608X95N")
+				(attval "REFDES" "C219")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C218" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C218")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C217" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C217")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C216" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C216")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C215" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C215")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C214" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C214")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C213" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C213")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C212" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C212")))
+		(component "SMD_0805_CAPC2012X145N"
+			(place "C211" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0805_CAPC2012X145N")
+				(attval "REFDES" "C211")))
+		(component "SMD_0402_CAPC1005X55N"
+			(place "C210" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X55N")
+				(attval "REFDES" "C210")))
+		(component "SMD_0603_CAPC1608X95N"
+			(place "C209" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1UF")
+				(attval "DEVICE" "SMD_0603_CAPC1608X95N")
+				(attval "REFDES" "C209")))
+		(component "SMD_0603_CAPC1608X95N"
+			(place "C208" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0603_CAPC1608X95N")
+				(attval "REFDES" "C208")))
+		(component "SMD_0603_CAPC1608X80N"
+			(place "C207" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1UF")
+				(attval "DEVICE" "SMD_0603_CAPC1608X80N")
+				(attval "REFDES" "C207")))
+		(component "SMD_0402_CAPC1005X55N"
+			(place "C206" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X55N")
+				(attval "REFDES" "C206")))
+		(component "SMD_0402_CAPC1005X55N"
+			(place "C187" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X55N")
+				(attval "REFDES" "C187")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C168" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C168")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C167" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C167")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C166" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C166")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C165" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C165")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C164" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C164")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C163" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C163")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C162" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C162")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C161" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C161")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C160" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C160")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C159" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C159")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C158" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C158")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C157" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C157")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C156" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C156")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C155" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C155")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C154" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C154")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C153" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C153")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C152" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C152")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C151" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C151")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C150" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C150")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C149" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C149")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C148" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C148")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C147" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C147")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C146" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C146")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C145" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C145")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C144" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C144")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C143" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C143")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C142" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C142")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C141" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C141")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C140" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C140")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C139" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C139")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C138" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C138")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C137" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C137")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C136" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C136")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C135" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C135")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C134" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C134")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C133" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C133")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C132" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C132")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C131" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C131")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C130" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C130")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C129" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C129")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C128" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C128")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C127" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C127")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C126" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C126")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C125" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C125")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C124" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C124")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C123" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C123")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C122" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C122")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C121" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C121")))
+		(component "SMD_0402_CAPC1005X55N"
+			(place "C120" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X55N")
+				(attval "REFDES" "C120")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C119" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C119")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C118" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C118")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C117" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C117")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C116" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C116")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C115" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C115")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C114" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C114")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C113" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C113")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C112" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C112")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C111" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C111")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C110" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C110")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C109" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C109")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C108" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C108")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C107" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C107")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C106" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C106")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C105" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C105")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C104" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C104")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C103" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C103")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C102" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C102")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C101" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C101")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C100" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C100")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C99" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C99")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C98" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C98")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C97" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C97")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C96" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C96")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C95" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C95")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C94" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C94")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C93" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C93")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C92" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C92")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C91" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C91")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C90" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C90")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C89" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C89")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C88" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C88")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C87" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C87")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C86" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C86")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C85" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C85")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C84" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C84")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C83" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C83")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C82" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C82")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C81" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C81")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C80" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C80")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C79" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C79")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C78" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C78")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C77" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C77")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C76" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C76")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C75" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C75")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C74" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C74")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C73" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C73")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C72" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C72")))
+		(component "SMD_0402_CAPC1005X55N"
+			(place "C71" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1NF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X55N")
+				(attval "REFDES" "C71")))
+		(component "SMD_0402_CAPC1005X55N"
+			(place "C70" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1NF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X55N")
+				(attval "REFDES" "C70")))
+		(component "SMD_0402_CAPC1005X55N"
+			(place "C69" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1NF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X55N")
+				(attval "REFDES" "C69")))
+		(component "SMD_0402_CAPC1005X55N"
+			(place "C68" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1NF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X55N")
+				(attval "REFDES" "C68")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C67" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C67")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C66" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C66")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C65" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C65")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C64" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C64")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C63" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C63")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C62" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C62")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C61" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C61")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C60" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C60")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C59" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C59")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C58" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C58")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C57" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C57")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C56" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C56")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C55" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C55")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C54" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C54")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C53" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C53")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C52" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C52")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C51" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C51")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C50" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C50")))
+		(component "SMD_0402_CAPC1005X55N"
+			(place "C49" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X55N")
+				(attval "REFDES" "C49")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C48" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C48")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C47" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C47")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C46" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C46")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C45" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C45")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C44" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C44")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C43" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C43")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C42" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C42")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C41" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C41")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C40" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C40")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C39" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C39")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C38" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C38")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C37" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C37")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C36" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C36")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C35" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C35")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C34" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C34")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C33" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C33")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C32" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C32")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C31" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C31")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C30" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C30")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C29" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C29")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C28" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C28")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C27" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C27")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C26" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C26")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C25" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C25")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C24" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C24")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C23" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C23")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C22" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C22")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C21" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C21")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C20" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C20")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C19" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C19")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C18" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C18")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C17" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C17")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C16" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C16")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C15" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C15")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C14" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C14")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C13" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C13")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C12" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C12")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C11" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C11")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C10" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C10")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C9" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C9")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C8" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C8")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C7" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C7")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C6" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C6")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C5" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C5")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C4" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C4")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C3")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C2")))
+		(component "SMD_0402_CAPC1005X70N"
+			(place "C1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "DEVICE" "SMD_0402_CAPC1005X70N")
+				(attval "REFDES" "C1"))))
+	(functions
+		(func "$1I568\$1I301" "" "U44" 1)
+		(func "U44gate2" "" "U44" 2)
+		(func "U43gate1" "" "U43" 1)
+		(func "$1I568\$1I443" "" "U43" 2)
+		(func "$1I568\$1I258" "" "U42" 1)
+		(func "U42gate2" "" "U42" 2)
+		(func "U41gate1" "" "U41" 1)
+		(func "$1I568\$1I344" "" "U41" 2)
+		(func "$1I64\$1I292" "" "U40" 1)
+		(func "$1I64\$1I200" "" "U39" 1)
+		(func "$1I64\$1I556" "" "U38" 1)
+		(func "$1I64\$1I64" "" "U37" 1)
+		(func "$1I74\$1I984" "" "U33" 1)
+		(func "$1I64\$1I1025" "" "U30" 1)
+		(func "$1I74\$1I2229" "" "U29" 1)
+		(func "$1I74\$1I754" "" "U28" 1)
+		(func "$1I74\$1I524" "" "U27" 1)
+		(func "$1I74\$1I294" "" "U26" 1)
+		(func "$1I74\$1I64" "" "U25" 1)
+		(func "$1I74\$1I1999" "" "U24" 1)
+		(func "$1I74\$1I1769" "" "U23" 1)
+		(func "$1I74\$1I1539" "" "U22" 1)
+		(func "$1I69\$1I1214" "" "U21" 1)
+		(func "$1I74\$1I1309" "" "U20" 1)
+		(func "$1I74\$1I1079" "" "U19" 1)
+		(func "$1I74\$1I2459" "" "U18" 1)
+		(func "$1I69\$1I984" "" "U17" 1)
+		(func "$1I69\$1I754" "" "U16" 1)
+		(func "$1I69\$1I524" "" "U15" 1)
+		(func "$1I69\$1I294" "" "U14" 1)
+		(func "$1I69\$1I64" "" "U13" 1)
+		(func "$1I79\$1I2134" "" "U12" 1)
+		(func "$1I79\$1I2364" "" "U11" 1)
+		(func "$1I79\$1I1904" "" "U10" 1)
+		(func "$1I79\$1I2594" "" "U9" 1)
+		(func "$1I79\$1I1674" "" "U8" 1)
+		(func "$1I79\$1I1444" "" "U7" 1)
+		(func "$1I79\$1I1214" "" "U6" 1)
+		(func "$1I79\$1I984" "" "U5" 1)
+		(func "$1I79\$1I524" "" "U4" 1)
+		(func "$1I79\$1I294" "" "U3" 1)
+		(func "$1I79\$1I754" "" "U2" 1)
+		(func "$1I79\$1I64" "" "U1" 1)
+		(func "$1I64\$1I593" "" "TP6" 1)
+		(func "$1I64\$1I616" "" "TP5" 1)
+		(func "$1I545" "" "TP4" 1)
+		(func "$1I522" "" "TP3" 1)
+		(func "$1I499" "" "TP2" 1)
+		(func "$1I476" "" "TP1" 1)
+		(func "$1I79\$1I2689" "" "R25" 1)
+		(func "$1I79\$1I2745" "" "R24" 1)
+		(func "$1I79\$1I2717" "" "R23" 1)
+		(func "$1I568\$1I514" "" "R22" 1)
+		(func "$1I568\$1I486" "" "R21" 1)
+		(func "$1I568\$1I415" "" "R20" 1)
+		(func "$1I568\$1I387" "" "R19" 1)
+		(func "$1I64\$1I815" "" "R18" 1)
+		(func "$1I64\$1I472" "" "R17" 1)
+		(func "$1I64\$1I444" "" "R16" 1)
+		(func "$1I64\$1I416" "" "R15" 1)
+		(func "$1I64\$1I721" "" "R14" 1)
+		(func "$1I64\$1I666" "" "R13" 1)
+		(func "$1I64\$1I528" "" "R12" 1)
+		(func "$1I64\$1I500" "" "R11" 1)
+		(func "$1I420" "" "R10" 1)
+		(func "$1I364" "" "R9" 1)
+		(func "$1I224" "" "R8" 1)
+		(func "$1I448" "" "R7" 1)
+		(func "$1I392" "" "R6" 1)
+		(func "$1I308" "" "R5" 1)
+		(func "$1I252" "" "R4" 1)
+		(func "$1I196" "" "R3" 1)
+		(func "$1I336" "" "R2" 1)
+		(func "$1I280" "" "R1" 1)
+		(func "$1I607" "" "Q2" 1)
+		(func "$1I573" "" "Q1" 1)
+		(func "$1I568\$1I176" "" "L2" 1)
+		(func "$1I568\$1I66" "" "L1" 1)
+		(func "$1I641" "" "J41" 1)
+		(func "$1I1447" "" "J40" 1)
+		(func "$1I1421" "" "J39" 1)
+		(func "$1I1395" "" "J38" 1)
+		(func "$1I1369" "" "J37" 1)
+		(func "$1I1343" "" "J36" 1)
+		(func "$1I1317" "" "J35" 1)
+		(func "$1I1291" "" "J34" 1)
+		(func "$1I1265" "" "J33" 1)
+		(func "$1I1239" "" "J32" 1)
+		(func "$1I1213" "" "J31" 1)
+		(func "$1I1187" "" "J30" 1)
+		(func "$1I1161" "" "J29" 1)
+		(func "$1I1135" "" "J28" 1)
+		(func "$1I1109" "" "J27" 1)
+		(func "$1I1083" "" "J26" 1)
+		(func "$1I1057" "" "J25" 1)
+		(func "$1I1031" "" "J24" 1)
+		(func "$1I1005" "" "J23" 1)
+		(func "$1I979" "" "J22" 1)
+		(func "$1I953" "" "J21" 1)
+		(func "$1I927" "" "J20" 1)
+		(func "$1I901" "" "J19" 1)
+		(func "$1I875" "" "J18" 1)
+		(func "$1I849" "" "J17" 1)
+		(func "$1I823" "" "J16" 1)
+		(func "$1I797" "" "J15" 1)
+		(func "$1I771" "" "J14" 1)
+		(func "$1I745" "" "J13" 1)
+		(func "$1I719" "" "J12" 1)
+		(func "$1I693" "" "J11" 1)
+		(func "$1I667" "" "J10" 1)
+		(func "$1I64\$1I964" "" "J9" 1)
+		(func "$1I64\$1I903" "" "J8" 1)
+		(func "$1I64\$1I843" "" "J7" 1)
+		(func "$1I64\$1I873" "" "J6" 1)
+		(func "$1I64\$1I355" "" "J5" 1)
+		(func "$1I64\$1I231" "" "J4" 1)
+		(func "$1I64\$1I163" "" "J3" 1)
+		(func "$1I64\$1I782" "" "J2" 1)
+		(func "$1I64\$1I749" "" "J1" 1)
+		(func "$1I64\$1I936" "" "D6" 1)
+		(func "$1I64\$1I997" "" "D5" 1)
+		(func "$1I64\$1I388" "" "D4" 1)
+		(func "$1I64\$1I694" "" "D3" 1)
+		(func "$1I64\$1I264" "" "D2" 1)
+		(func "$1I64\$1I639" "" "D1" 1)
+		(func "$1I568\$1I934" "" "C228" 1)
+		(func "$1I568\$1I906" "" "C227" 1)
+		(func "$1I568\$1I878" "" "C226" 1)
+		(func "$1I568\$1I850" "" "C225" 1)
+		(func "$1I568\$1I710" "" "C224" 1)
+		(func "$1I568\$1I682" "" "C223" 1)
+		(func "$1I568\$1I654" "" "C222" 1)
+		(func "$1I568\$1I626" "" "C221" 1)
+		(func "$1I568\$1I202" "" "C220" 1)
+		(func "$1I568\$1I230" "" "C219" 1)
+		(func "$1I568\$1I822" "" "C218" 1)
+		(func "$1I568\$1I794" "" "C217" 1)
+		(func "$1I568\$1I766" "" "C216" 1)
+		(func "$1I568\$1I738" "" "C215" 1)
+		(func "$1I568\$1I598" "" "C214" 1)
+		(func "$1I568\$1I570" "" "C213" 1)
+		(func "$1I568\$1I542" "" "C212" 1)
+		(func "$1I568\$1I120" "" "C211" 1)
+		(func "$1I568\$1I92" "" "C210" 1)
+		(func "$1I568\$1I148" "" "C209" 1)
+		(func "$1I64\$1I327" "" "C208" 1)
+		(func "$1I64\$1I107" "" "C207" 1)
+		(func "$1I64\$1I135" "" "C206" 1)
+		(func "$1I74\$1I1051" "" "C187" 1)
+		(func "$1I74\$1I2431" "" "C168" 1)
+		(func "$1I74\$1I2403" "" "C167" 1)
+		(func "$1I74\$1I2375" "" "C166" 1)
+		(func "$1I74\$1I2201" "" "C165" 1)
+		(func "$1I74\$1I2173" "" "C164" 1)
+		(func "$1I74\$1I2145" "" "C163" 1)
+		(func "$1I74\$1I956" "" "C162" 1)
+		(func "$1I74\$1I928" "" "C161" 1)
+		(func "$1I74\$1I900" "" "C160" 1)
+		(func "$1I74\$1I726" "" "C159" 1)
+		(func "$1I74\$1I698" "" "C158" 1)
+		(func "$1I74\$1I670" "" "C157" 1)
+		(func "$1I74\$1I496" "" "C156" 1)
+		(func "$1I74\$1I468" "" "C155" 1)
+		(func "$1I74\$1I440" "" "C154" 1)
+		(func "$1I74\$1I266" "" "C153" 1)
+		(func "$1I74\$1I238" "" "C152" 1)
+		(func "$1I74\$1I210" "" "C151" 1)
+		(func "$1I74\$1I872" "" "C150" 1)
+		(func "$1I74\$1I844" "" "C149" 1)
+		(func "$1I74\$1I816" "" "C148" 1)
+		(func "$1I74\$1I642" "" "C147" 1)
+		(func "$1I74\$1I614" "" "C146" 1)
+		(func "$1I74\$1I586" "" "C145" 1)
+		(func "$1I74\$1I412" "" "C144" 1)
+		(func "$1I74\$1I384" "" "C143" 1)
+		(func "$1I74\$1I356" "" "C142" 1)
+		(func "$1I74\$1I182" "" "C141" 1)
+		(func "$1I74\$1I154" "" "C140" 1)
+		(func "$1I74\$1I126" "" "C139" 1)
+		(func "$1I74\$1I1971" "" "C138" 1)
+		(func "$1I74\$1I1943" "" "C137" 1)
+		(func "$1I74\$1I1915" "" "C136" 1)
+		(func "$1I74\$1I2347" "" "C135" 1)
+		(func "$1I74\$1I2319" "" "C134" 1)
+		(func "$1I74\$1I2291" "" "C133" 1)
+		(func "$1I74\$1I2117" "" "C132" 1)
+		(func "$1I74\$1I2089" "" "C131" 1)
+		(func "$1I74\$1I2061" "" "C130" 1)
+		(func "$1I74\$1I1887" "" "C129" 1)
+		(func "$1I74\$1I1859" "" "C128" 1)
+		(func "$1I74\$1I1831" "" "C127" 1)
+		(func "$1I74\$1I1741" "" "C126" 1)
+		(func "$1I74\$1I1713" "" "C125" 1)
+		(func "$1I74\$1I1685" "" "C124" 1)
+		(func "$1I74\$1I1511" "" "C123" 1)
+		(func "$1I74\$1I1483" "" "C122" 1)
+		(func "$1I74\$1I1455" "" "C121" 1)
+		(func "$1I69\$1I1287" "" "C120" 1)
+		(func "$1I74\$1I1281" "" "C119" 1)
+		(func "$1I74\$1I1253" "" "C118" 1)
+		(func "$1I74\$1I1225" "" "C117" 1)
+		(func "$1I74\$1I2605" "" "C116" 1)
+		(func "$1I74\$1I2661" "" "C115" 1)
+		(func "$1I74\$1I2633" "" "C114" 1)
+		(func "$1I74\$1I1657" "" "C113" 1)
+		(func "$1I74\$1I1629" "" "C112" 1)
+		(func "$1I74\$1I1601" "" "C111" 1)
+		(func "$1I69\$1I1186" "" "C110" 1)
+		(func "$1I69\$1I1158" "" "C109" 1)
+		(func "$1I69\$1I1130" "" "C108" 1)
+		(func "$1I74\$1I1427" "" "C107" 1)
+		(func "$1I74\$1I1399" "" "C106" 1)
+		(func "$1I74\$1I1371" "" "C105" 1)
+		(func "$1I74\$1I1197" "" "C104" 1)
+		(func "$1I74\$1I1169" "" "C103" 1)
+		(func "$1I74\$1I1141" "" "C102" 1)
+		(func "$1I74\$1I2549" "" "C101" 1)
+		(func "$1I74\$1I2521" "" "C100" 1)
+		(func "$1I74\$1I2577" "" "C99" 1)
+		(func "$1I69\$1I1102" "" "C98" 1)
+		(func "$1I69\$1I1074" "" "C97" 1)
+		(func "$1I69\$1I1046" "" "C96" 1)
+		(func "$1I69\$1I956" "" "C95" 1)
+		(func "$1I69\$1I928" "" "C94" 1)
+		(func "$1I69\$1I900" "" "C93" 1)
+		(func "$1I69\$1I726" "" "C92" 1)
+		(func "$1I69\$1I698" "" "C91" 1)
+		(func "$1I69\$1I670" "" "C90" 1)
+		(func "$1I69\$1I496" "" "C89" 1)
+		(func "$1I69\$1I468" "" "C88" 1)
+		(func "$1I69\$1I440" "" "C87" 1)
+		(func "$1I69\$1I266" "" "C86" 1)
+		(func "$1I69\$1I238" "" "C85" 1)
+		(func "$1I69\$1I210" "" "C84" 1)
+		(func "$1I69\$1I872" "" "C83" 1)
+		(func "$1I69\$1I844" "" "C82" 1)
+		(func "$1I69\$1I816" "" "C81" 1)
+		(func "$1I69\$1I642" "" "C80" 1)
+		(func "$1I69\$1I614" "" "C79" 1)
+		(func "$1I69\$1I586" "" "C78" 1)
+		(func "$1I69\$1I412" "" "C77" 1)
+		(func "$1I69\$1I384" "" "C76" 1)
+		(func "$1I69\$1I356" "" "C75" 1)
+		(func "$1I69\$1I182" "" "C74" 1)
+		(func "$1I69\$1I154" "" "C73" 1)
+		(func "$1I69\$1I126" "" "C72" 1)
+		(func "$1I140" "" "C71" 1)
+		(func "$1I168" "" "C70" 1)
+		(func "$1I84" "" "C69" 1)
+		(func "$1I112" "" "C68" 1)
+		(func "$1I79\$1I2566" "" "C67" 1)
+		(func "$1I79\$1I2538" "" "C66" 1)
+		(func "$1I79\$1I2510" "" "C65" 1)
+		(func "$1I79\$1I2336" "" "C64" 1)
+		(func "$1I79\$1I2308" "" "C63" 1)
+		(func "$1I79\$1I2280" "" "C62" 1)
+		(func "$1I79\$1I2106" "" "C61" 1)
+		(func "$1I79\$1I2078" "" "C60" 1)
+		(func "$1I79\$1I2050" "" "C59" 1)
+		(func "$1I79\$1I2482" "" "C58" 1)
+		(func "$1I79\$1I2454" "" "C57" 1)
+		(func "$1I79\$1I2426" "" "C56" 1)
+		(func "$1I79\$1I2252" "" "C55" 1)
+		(func "$1I79\$1I2224" "" "C54" 1)
+		(func "$1I79\$1I2196" "" "C53" 1)
+		(func "$1I79\$1I2022" "" "C52" 1)
+		(func "$1I79\$1I1994" "" "C51" 1)
+		(func "$1I79\$1I1966" "" "C50" 1)
+		(func "$1I79\$1I2661" "" "C49" 1)
+		(func "$1I79\$1I1876" "" "C48" 1)
+		(func "$1I79\$1I1848" "" "C47" 1)
+		(func "$1I79\$1I1820" "" "C46" 1)
+		(func "$1I79\$1I1646" "" "C45" 1)
+		(func "$1I79\$1I1618" "" "C44" 1)
+		(func "$1I79\$1I1590" "" "C43" 1)
+		(func "$1I79\$1I1416" "" "C42" 1)
+		(func "$1I79\$1I1388" "" "C41" 1)
+		(func "$1I79\$1I1360" "" "C40" 1)
+		(func "$1I79\$1I1186" "" "C39" 1)
+		(func "$1I79\$1I1158" "" "C38" 1)
+		(func "$1I79\$1I1130" "" "C37" 1)
+		(func "$1I79\$1I1792" "" "C36" 1)
+		(func "$1I79\$1I1764" "" "C35" 1)
+		(func "$1I79\$1I1736" "" "C34" 1)
+		(func "$1I79\$1I1562" "" "C33" 1)
+		(func "$1I79\$1I1534" "" "C32" 1)
+		(func "$1I79\$1I1506" "" "C31" 1)
+		(func "$1I79\$1I1332" "" "C30" 1)
+		(func "$1I79\$1I1304" "" "C29" 1)
+		(func "$1I79\$1I1276" "" "C28" 1)
+		(func "$1I79\$1I1102" "" "C27" 1)
+		(func "$1I79\$1I1074" "" "C26" 1)
+		(func "$1I79\$1I1046" "" "C25" 1)
+		(func "$1I79\$1I956" "" "C24" 1)
+		(func "$1I79\$1I928" "" "C23" 1)
+		(func "$1I79\$1I900" "" "C22" 1)
+		(func "$1I79\$1I726" "" "C21" 1)
+		(func "$1I79\$1I698" "" "C20" 1)
+		(func "$1I79\$1I670" "" "C19" 1)
+		(func "$1I79\$1I496" "" "C18" 1)
+		(func "$1I79\$1I468" "" "C17" 1)
+		(func "$1I79\$1I440" "" "C16" 1)
+		(func "$1I79\$1I266" "" "C15" 1)
+		(func "$1I79\$1I238" "" "C14" 1)
+		(func "$1I79\$1I210" "" "C13" 1)
+		(func "$1I79\$1I872" "" "C12" 1)
+		(func "$1I79\$1I844" "" "C11" 1)
+		(func "$1I79\$1I816" "" "C10" 1)
+		(func "$1I79\$1I642" "" "C9" 1)
+		(func "$1I79\$1I614" "" "C8" 1)
+		(func "$1I79\$1I586" "" "C7" 1)
+		(func "$1I79\$1I412" "" "C6" 1)
+		(func "$1I79\$1I384" "" "C5" 1)
+		(func "$1I79\$1I356" "" "C4" 1)
+		(func "$1I79\$1I182" "" "C3" 1)
+		(func "$1I79\$1I154" "" "C2" 1)
+		(func "$1I79\$1I126" "" "C1" 1))
+	(network
+		(net "5.0V"
+			(pins R19-1 R21-1 C209-1 C219-1 U42-1 U42-3 U44-1 U44-3 U41-2 U43-2 J1-2 J2-2
+ J3-1 U39-1 U39-3 U40-1 U37-1 U38-1 U30-3 C208-1 C206-1))
+		(net "12V"
+			(pins C215-1 C216-1 C217-1 C218-1 C225-1 C226-1 C227-1 C228-1 U42-9 U42-10
+ U42-11 U42-12 U44-9 U44-10 U44-11 U44-12 U41-9 U41-10 U41-11 U41-12 U41-13
+ U43-9 U43-10 U43-11 U43-12 U43-13 D2-1 D4-1 J4-1 J4-3 J4-2 J5-1 J5-3 J5-2
+ U40-8 U30-1 J7-1 J6-1))
+		(net "$1I64\$1N1323"
+			(pins U37-12 TP5-1))
+		(net "$1I64\$1N1342"
+			(pins R13-2 U37-10))
+		(net "$1I64\$1N1343"
+			(pins R13-1 D1-2))
+		(net "$1I64\$1N1344"
+			(pins R14-1 D3-2))
+		(net "$1I64\CLK"
+			(pins J2-4 U37-11 U37-16 U38-10 R17-1))
+		(net "$1I64\D+"
+			(pins J1-4 J3-3 U39-6 U37-19 U38-13))
+		(net "$1I64\D-"
+			(pins J1-5 J3-2 U39-4 U37-18 U38-12))
+		(net "$1I64\MCLR"
+			(pins J1-1 J2-1 J3-4 U37-4 U38-4))
+		(net "$1I64\MISO_MCU"
+			(pins J2-5 U37-13 U37-15 U38-9 R16-1))
+		(net "$1I64\MOSI_MCU"
+			(pins U37-14 U37-9 U38-8 R15-1))
+		(net "$1I64\PWR"
+			(pins R18-1 U37-7 U38-7))
+		(net "$1I64\RA5"
+			(pins R14-2 U37-2 U38-2))
+		(net "$1I64\RC4"
+			(pins U37-6 U38-6 TP6-1))
+		(net "$1I64\VMEAS"
+			(pins R11-2 U37-3 U38-3 R12-1))
+		(net "$1I64\VUSB3V3"
+			(pins C207-1 U37-17 U38-11))
+		(net "$1I69\BF_CLK0"
+			(pins U21-10 U13-22))
+		(net "$1I69\BF_CLK1"
+			(pins U21-7 U14-22))
+		(net "$1I69\BF_CLK2"
+			(pins U21-4 U15-22))
+		(net "$1I69\BF_CLK3"
+			(pins U21-1 U16-22))
+		(net "$1I69\BF_CLK4"
+			(pins U21-38 U17-22))
+		(net "$1I69\BF_DAT0"
+			(pins U21-9 U13-23))
+		(net "$1I69\BF_DAT1"
+			(pins U21-6 U14-23))
+		(net "$1I69\BF_DAT2"
+			(pins U21-3 U15-23))
+		(net "$1I69\BF_DAT3"
+			(pins U21-40 U16-23))
+		(net "$1I69\BF_DAT4"
+			(pins U21-37 U17-23))
+		(net "$1I69\PWR1"
+			(pins U21-8 C72-1 C73-1 C74-1 C84-1 C85-1 C86-1 C75-2 C76-2 C77-2 C87-2 C88-2
+ C89-2 U14-36 U13-17 U13-25 U13-26 U13-27 U13-28 U13-29 U13-30 U13-31 U13-32
+ U13-33 U13-34 U13-15 U13-35 U13-13 U13-12 U13-11 U13-9 U13-10 U13-1 U13-2
+ U13-3 U13-4 U13-19 U13-5 U13-6 U13-7 U13-8 U13-20 U13-21 U13-14 U13-18
+ U13-16 U13-24))
+		(net "$1I69\PWR2"
+			(pins U21-5 C75-1 C76-1 C77-1 C87-1 C88-1 C89-1 C78-2 C79-2 C80-2 C90-2 C91-2
+ C92-2 U14-17 U14-25 U14-26 U14-27 U14-28 U14-29 U14-30 U14-31 U14-32 U14-33
+ U14-34 U14-15 U14-35 U14-13 U14-12 U14-11 U14-9 U14-10 U14-1 U14-2 U14-3
+ U14-4 U14-19 U14-5 U14-6 U14-7 U14-8 U14-20 U14-21 U14-14 U14-18 U14-16
+ U14-24 U15-36))
+		(net "$1I69\PWR3"
+			(pins U21-2 C78-1 C79-1 C80-1 C90-1 C91-1 C92-1 C81-2 C82-2 C83-2 C93-2 C94-2
+ C95-2 U15-17 U15-25 U15-26 U15-27 U15-28 U15-29 U15-30 U15-31 U15-32 U15-33
+ U15-34 U15-15 U15-35 U15-13 U15-12 U15-11 U15-9 U15-10 U15-1 U15-2 U15-3
+ U15-4 U15-19 U15-5 U15-6 U15-7 U15-8 U15-20 U15-21 U15-14 U15-18 U15-16
+ U15-24 U16-36))
+		(net "$1I69\PWR4"
+			(pins U21-39 C96-2 C97-2 C98-2 C108-2 C109-2 C110-2 C81-1 C82-1 C83-1 C93-1
+ C94-1 C95-1 U16-17 U16-25 U16-26 U16-27 U16-28 U16-29 U16-30 U16-31 U16-32
+ U16-33 U16-34 U16-15 U16-35 U16-13 U16-12 U16-11 U16-9 U16-10 U16-1 U16-2
+ U16-3 U16-4 U16-19 U16-5 U16-6 U16-7 U16-8 U16-20 U16-21 U16-14 U16-18
+ U16-16 U16-24 U17-36))
+		(net "$1I74\BF_CLK5"
+			(pins U33-10 U25-22))
+		(net "$1I74\BF_CLK6"
+			(pins U33-7 U26-22))
+		(net "$1I74\BF_CLK7"
+			(pins U33-4 U27-22))
+		(net "$1I74\BF_CLK8"
+			(pins U33-1 U28-22))
+		(net "$1I74\BF_CLK9"
+			(pins U33-38 U18-22))
+		(net "$1I74\BF_CLK10"
+			(pins U33-35 U19-22))
+		(net "$1I74\BF_CLK11"
+			(pins U33-32 U20-22))
+		(net "$1I74\BF_CLK12"
+			(pins U33-29 U22-22))
+		(net "$1I74\BF_CLK13"
+			(pins U33-26 U23-22))
+		(net "$1I74\BF_CLK14"
+			(pins U33-23 U24-22))
+		(net "$1I74\BF_CLK15"
+			(pins U33-20 U29-22))
+		(net "$1I74\BF_DAT5"
+			(pins U33-9 U25-23))
+		(net "$1I74\BF_DAT6"
+			(pins U33-6 U26-23))
+		(net "$1I74\BF_DAT7"
+			(pins U33-3 U27-23))
+		(net "$1I74\BF_DAT8"
+			(pins U33-40 U28-23))
+		(net "$1I74\BF_DAT9"
+			(pins U33-37 U18-23))
+		(net "$1I74\BF_DAT10"
+			(pins U33-34 U19-23))
+		(net "$1I74\BF_DAT11"
+			(pins U33-31 U20-23))
+		(net "$1I74\BF_DAT12"
+			(pins U33-28 U22-23))
+		(net "$1I74\BF_DAT13"
+			(pins U33-25 U23-23))
+		(net "$1I74\BF_DAT14"
+			(pins U33-22 U24-23))
+		(net "$1I74\BF_DAT15"
+			(pins U33-19 U29-23))
+		(net "$1I74\PWR12"
+			(pins U33-30 C105-1 C106-1 C107-1 C121-1 C122-1 C123-1 C111-2 C112-2 C113-2
+ C124-2 C125-2 C126-2 U20-17 U20-25 U20-26 U20-27 U20-28 U20-29 U20-30 U20-31
+ U20-32 U20-33 U20-34 U20-15 U20-35 U20-13 U20-12 U20-11 U20-9 U20-10 U20-1
+ U20-2 U20-3 U20-4 U20-19 U20-5 U20-6 U20-7 U20-8 U20-20 U20-21 U20-14 U20-18
+ U20-16 U20-24 U22-36))
+		(net "$1I74\PWR13"
+			(pins U33-27 C111-1 C112-1 C113-1 C124-1 C125-1 C126-1 C127-2 C128-2 C129-2
+ C136-2 C137-2 C138-2 U22-17 U22-25 U22-26 U22-27 U22-28 U22-29 U22-30 U22-31
+ U22-32 U22-33 U22-34 U22-15 U22-35 U22-13 U22-12 U22-11 U22-9 U22-10 U22-1
+ U22-2 U22-3 U22-4 U22-19 U22-5 U22-6 U22-7 U22-8 U22-20 U22-21 U22-14 U22-18
+ U22-16 U22-24 U23-36))
+		(net "$1I74\PWR14"
+			(pins U33-24 C127-1 C128-1 C129-1 C136-1 C137-1 C138-1 C130-2 C131-2 C132-2
+ C163-2 C164-2 C165-2 U23-17 U23-25 U23-26 U23-27 U23-28 U23-29 U23-30 U23-31
+ U23-32 U23-33 U23-34 U23-15 U23-35 U23-13 U23-12 U23-11 U23-9 U23-10 U23-1
+ U23-2 U23-3 U23-4 U23-19 U23-5 U23-6 U23-7 U23-8 U23-20 U23-21 U23-14 U23-18
+ U23-16 U23-24 U24-36))
+		(net "$1I79\BF_CLK16"
+			(pins U9-10 U1-22))
+		(net "$1I79\BF_CLK17"
+			(pins U9-7 U3-22))
+		(net "$1I79\BF_CLK18"
+			(pins U9-4 U4-22))
+		(net "$1I79\BF_CLK19"
+			(pins U9-1 U2-22))
+		(net "$1I79\BF_CLK20"
+			(pins U9-38 U5-22))
+		(net "$1I79\BF_CLK21"
+			(pins U9-35 U6-22))
+		(net "$1I79\BF_CLK22"
+			(pins U9-32 U7-22))
+		(net "$1I79\BF_CLK23"
+			(pins U9-29 U8-22))
+		(net "$1I79\BF_CLK24"
+			(pins U9-26 U10-22))
+		(net "$1I79\BF_CLK25"
+			(pins U9-23 U12-22))
+		(net "$1I79\BF_CLK26"
+			(pins U9-20 U11-22))
+		(net "$1I79\BF_DAT16"
+			(pins R23-1 U9-9 U1-23))
+		(net "$1I79\BF_DAT17"
+			(pins U9-6 U3-23))
+		(net "$1I79\BF_DAT18"
+			(pins U9-3 U4-23))
+		(net "$1I79\BF_DAT19"
+			(pins U9-40 U2-23))
+		(net "$1I79\BF_DAT20"
+			(pins U9-37 U5-23))
+		(net "$1I79\BF_DAT21"
+			(pins U9-34 U6-23))
+		(net "$1I79\BF_DAT22"
+			(pins U9-31 U7-23))
+		(net "$1I79\BF_DAT23"
+			(pins U9-28 U8-23))
+		(net "$1I79\BF_DAT24"
+			(pins U9-25 U10-23))
+		(net "$1I79\BF_DAT25"
+			(pins U9-22 U12-23))
+		(net "$1I79\BF_DAT26"
+			(pins U9-19 U11-23))
+		(net "$1I79\PWR17"
+			(pins R23-2 U9-8 C1-1 C2-1 C3-1 C13-1 C14-1 C15-1 C4-2 C5-2 C6-2 C16-2 C17-2
+ C18-2 U3-36 U1-17 U1-25 U1-26 U1-27 U1-28 U1-29 U1-30 U1-31 U1-32 U1-33 U1-34
+ U1-15 U1-35 U1-13 U1-12 U1-11 U1-9 U1-10 U1-1 U1-2 U1-3 U1-4 U1-19 U1-5 U1-6
+ U1-7 U1-8 U1-20 U1-21 U1-14 U1-18 U1-16 U1-24))
+		(net "$1I79\PWR18"
+			(pins U9-5 C4-1 C5-1 C6-1 C16-1 C17-1 C18-1 C7-2 C8-2 C9-2 C19-2 C20-2 C21-2
+ U3-17 U3-25 U3-26 U3-27 U3-28 U3-29 U3-30 U3-31 U3-32 U3-33 U3-34 U3-15 U3-35
+ U3-13 U3-12 U3-11 U3-9 U3-10 U3-1 U3-2 U3-3 U3-4 U3-19 U3-5 U3-6 U3-7 U3-8
+ U3-20 U3-21 U3-14 U3-18 U3-16 U3-24 U4-36))
+		(net "$1I79\PWR19"
+			(pins U9-2 C7-1 C8-1 C9-1 C19-1 C20-1 C21-1 C10-2 C11-2 C12-2 C22-2 C23-2
+ C24-2 U4-17 U4-25 U4-26 U4-27 U4-28 U4-29 U4-30 U4-31 U4-32 U4-33 U4-34 U4-15
+ U4-35 U4-13 U4-12 U4-11 U4-9 U4-10 U4-1 U4-2 U4-3 U4-4 U4-19 U4-5 U4-6 U4-7
+ U4-8 U4-20 U4-21 U4-14 U4-18 U4-16 U4-24 U2-36))
+		(net "$1I79\PWR20"
+			(pins U9-39 C25-2 C26-2 C27-2 C37-2 C38-2 C39-2 C10-1 C11-1 C12-1 C22-1 C23-1
+ C24-1 U2-17 U2-25 U2-26 U2-27 U2-28 U2-29 U2-30 U2-31 U2-32 U2-33 U2-34 U2-15
+ U2-35 U2-13 U2-12 U2-11 U2-9 U2-10 U2-1 U2-2 U2-3 U2-4 U2-19 U2-5 U2-6 U2-7
+ U2-8 U2-20 U2-21 U2-14 U2-18 U2-16 U2-24 U5-36))
+		(net "$1I79\PWR21"
+			(pins U9-36 C25-1 C26-1 C27-1 C37-1 C38-1 C39-1 C28-2 C29-2 C30-2 C40-2 C41-2
+ C42-2 U6-36 U5-17 U5-25 U5-26 U5-27 U5-28 U5-29 U5-30 U5-31 U5-32 U5-33 U5-34
+ U5-15 U5-35 U5-13 U5-12 U5-11 U5-9 U5-10 U5-1 U5-2 U5-3 U5-4 U5-19 U5-5 U5-6
+ U5-7 U5-8 U5-20 U5-21 U5-14 U5-18 U5-16 U5-24))
+		(net "$1I79\PWR22"
+			(pins U9-33 C28-1 C29-1 C30-1 C40-1 C41-1 C42-1 C31-2 C32-2 C33-2 C43-2 C44-2
+ C45-2 U6-17 U6-25 U6-26 U6-27 U6-28 U6-29 U6-30 U6-31 U6-32 U6-33 U6-34 U6-15
+ U6-35 U6-13 U6-12 U6-11 U6-9 U6-10 U6-1 U6-2 U6-3 U6-4 U6-19 U6-5 U6-6 U6-7
+ U6-8 U6-20 U6-21 U6-14 U6-18 U6-16 U6-24 U7-36))
+		(net "$1I79\PWR23"
+			(pins U9-30 C31-1 C32-1 C33-1 C43-1 C44-1 C45-1 C34-2 C35-2 C36-2 C46-2 C47-2
+ C48-2 U7-17 U7-25 U7-26 U7-27 U7-28 U7-29 U7-30 U7-31 U7-32 U7-33 U7-34 U7-15
+ U7-35 U7-13 U7-12 U7-11 U7-9 U7-10 U7-1 U7-2 U7-3 U7-4 U7-19 U7-5 U7-6 U7-7
+ U7-8 U7-20 U7-21 U7-14 U7-18 U7-16 U7-24 U8-36))
+		(net "$1I79\PWR24"
+			(pins U9-27 C34-1 C35-1 C36-1 C46-1 C47-1 C48-1 C50-2 C51-2 C52-2 C59-2 C60-2
+ C61-2 U8-17 U8-25 U8-26 U8-27 U8-28 U8-29 U8-30 U8-31 U8-32 U8-33 U8-34 U8-15
+ U8-35 U8-13 U8-12 U8-11 U8-9 U8-10 U8-1 U8-2 U8-3 U8-4 U8-19 U8-5 U8-6 U8-7
+ U8-8 U8-20 U8-21 U8-14 U8-18 U8-16 U8-24 U10-36))
+		(net "$1I79\PWR25"
+			(pins U9-24 C50-1 C51-1 C52-1 C59-1 C60-1 C61-1 C53-2 C54-2 C55-2 C62-2 C63-2
+ C64-2 U10-17 U10-25 U10-26 U10-27 U10-28 U10-29 U10-30 U10-31 U10-32 U10-33
+ U10-34 U10-15 U10-35 U10-13 U10-12 U10-11 U10-9 U10-10 U10-1 U10-2 U10-3
+ U10-4 U10-19 U10-5 U10-6 U10-7 U10-8 U10-20 U10-21 U10-14 U10-18 U10-16
+ U10-24 U12-36))
+		(net "$1I79\PWR26"
+			(pins U9-21 C53-1 C54-1 C55-1 C62-1 C63-1 C64-1 C56-2 C57-2 C58-2 C65-2 C66-2
+ C67-2 U12-17 U12-25 U12-26 U12-27 U12-28 U12-29 U12-30 U12-31 U12-32 U12-33
+ U12-34 U12-15 U12-35 U12-13 U12-12 U12-11 U12-9 U12-10 U12-1 U12-2 U12-3
+ U12-4 U12-19 U12-5 U12-6 U12-7 U12-8 U12-20 U12-21 U12-14 U12-18 U12-16
+ U12-24 U11-36))
+		(net "$1I568\$1N1030"
+			(pins C210-1 U42-14 U41-15))
+		(net "$1I568\$1N1031"
+			(pins C210-2 U42-13 U41-14))
+		(net "$1I568\$1N1034"
+			(pins C220-1 U44-14 U43-15))
+		(net "$1I568\$1N1035"
+			(pins C220-2 U44-13 U43-14))
+		(net "$1I568\$1N1036"
+			(pins L1-2 U42-5 U42-6 U42-7 U42-8 U41-4 U41-5 U41-6 U41-7 U41-8))
+		(net "$1I568\$1N1037"
+			(pins R20-2 U42-15 U41-16))
+		(net "$1I568\$1N1038"
+			(pins R19-2 U42-2 U41-1))
+		(net "$1I568\$1N1039"
+			(pins L2-2 U44-5 U44-6 U44-7 U44-8 U43-4 U43-5 U43-6 U43-7 U43-8))
+		(net "$1I568\$1N1040"
+			(pins R22-2 U44-15 U43-16))
+		(net "$1I568\$1N1041"
+			(pins R21-2 U44-2 U43-1))
+		(net "CLK_PAR"
+			(pins R17-2 U21-18))
+		(net "GND"
+			(pins Q1-3 Q1-1 Q1-2 Q2-3 Q2-1 Q2-2 C211-2 C212-2 C213-2 C214-2 C221-2 C222-2
+ C223-2 C224-2 C215-2 C216-2 C217-2 C218-2 C225-2 C226-2 C227-2 C228-2 C209-2
+ C219-2 U42-4 U42-17 U44-4 U44-17 U41-3 U41-17 U43-3 U43-17 J1-3 J2-3 J3-5 J3-6
+ J3-7 J3-8 J3-9 D2-2 D4-2 D6-2 D5-2 J4-4 J4-5 J4-6 J5-4 J5-5 J5-6 J8-4 J8-5 J8-6
+ J9-4 J9-5 J9-6 U39-2 U39-5 C207-2 U40-7 U40-5 U40-4 U40-3 U40-6 U40-2 U37-20
+ U38-14 D1-1 D3-1 R12-2 U30-2 J7-2 J6-2 C208-2 C206-2))
+		(net "GND_M3"
+			(pins R3-2 R4-2 R5-2 R25-2 R24-1 U9-41 C49-2))
+		(net "MISO_TX0"
+			(pins R16-2 U21-11))
+		(net "MOSI_RX0"
+			(pins R15-2 U21-12))
+		(net "PAR_2"
+			(pins R8-1 U33-18))
+		(net "PAR_3"
+			(pins R3-1 U9-18))
+		(net "POWER_ON_OFF"
+			(pins Q1-4 Q2-4 R18-2))
+		(net "PWM1"
+			(pins R20-1 U42-16 U37-5 U38-5))
+		(net "PWM2"
+			(pins R22-1 U44-16 U37-8))
+		(net "PWR0"
+			(pins Q1-5 Q1-6 Q1-7 Q1-8 Q2-5 Q2-6 Q2-7 Q2-8 U21-41 C72-2 C73-2 C74-2 C84-2
+ C85-2 C86-2 U13-36 C120-2))
+		(net "PWR5"
+			(pins R8-2 R9-2 R10-2 U21-34 U21-36 C96-1 C97-1 C98-1 C108-1 C109-1 C110-1
+ U17-17 U17-25 U17-26 U17-27 U17-28 U17-29 U17-30 U17-31 U17-32 U17-33 U17-34
+ U17-15 U17-35 U17-13 U17-12 U17-11 U17-9 U17-10 U17-1 U17-2 U17-3 U17-4
+ U17-19 U17-5 U17-6 U17-7 U17-8 U17-20 U17-21 U17-14 U17-18 U17-16 U17-24
+ U33-41 C139-2 C140-2 C141-2 C151-2 C152-2 C153-2 U25-36 C187-2))
+		(net "PWR6"
+			(pins U21-31 U21-33 U33-8 C139-1 C140-1 C141-1 C151-1 C152-1 C153-1 C142-2
+ C143-2 C144-2 C154-2 C155-2 C156-2 U26-36 U25-17 U25-25 U25-26 U25-27 U25-28
+ U25-29 U25-30 U25-31 U25-32 U25-33 U25-34 U25-15 U25-35 U25-13 U25-12 U25-11
+ U25-9 U25-10 U25-1 U25-2 U25-3 U25-4 U25-19 U25-5 U25-6 U25-7 U25-8 U25-20
+ U25-21 U25-14 U25-18 U25-16 U25-24))
+		(net "PWR7"
+			(pins U21-28 U21-30 U33-5 C142-1 C143-1 C144-1 C154-1 C155-1 C156-1 C145-2
+ C146-2 C147-2 C157-2 C158-2 C159-2 U26-17 U26-25 U26-26 U26-27 U26-28 U26-29
+ U26-30 U26-31 U26-32 U26-33 U26-34 U26-15 U26-35 U26-13 U26-12 U26-11 U26-9
+ U26-10 U26-1 U26-2 U26-3 U26-4 U26-19 U26-5 U26-6 U26-7 U26-8 U26-20 U26-21
+ U26-14 U26-18 U26-16 U26-24 U27-36))
+		(net "PWR8"
+			(pins U21-25 U21-27 U33-2 C145-1 C146-1 C147-1 C157-1 C158-1 C159-1 C148-2
+ C149-2 C150-2 C160-2 C161-2 C162-2 U27-17 U27-25 U27-26 U27-27 U27-28 U27-29
+ U27-30 U27-31 U27-32 U27-33 U27-34 U27-15 U27-35 U27-13 U27-12 U27-11 U27-9
+ U27-10 U27-1 U27-2 U27-3 U27-4 U27-19 U27-5 U27-6 U27-7 U27-8 U27-20 U27-21
+ U27-14 U27-18 U27-16 U27-24 U28-36))
+		(net "PWR9"
+			(pins U21-22 U21-24 U33-39 C100-2 C101-2 C99-2 C116-2 C114-2 C115-2 C148-1
+ C149-1 C150-1 C160-1 C161-1 C162-1 U18-36 U28-17 U28-25 U28-26 U28-27 U28-28
+ U28-29 U28-30 U28-31 U28-32 U28-33 U28-34 U28-15 U28-35 U28-13 U28-12 U28-11
+ U28-9 U28-10 U28-1 U28-2 U28-3 U28-4 U28-19 U28-5 U28-6 U28-7 U28-8 U28-20
+ U28-21 U28-14 U28-18 U28-16 U28-24))
+		(net "PWR10"
+			(pins U21-19 U21-21 U33-36 C102-2 C103-2 C104-2 C117-2 C118-2 C119-2 C100-1
+ C101-1 C99-1 C116-1 C114-1 C115-1 U19-36 U18-17 U18-25 U18-26 U18-27 U18-28
+ U18-29 U18-30 U18-31 U18-32 U18-33 U18-34 U18-15 U18-35 U18-13 U18-12 U18-11
+ U18-9 U18-10 U18-1 U18-2 U18-3 U18-4 U18-19 U18-5 U18-6 U18-7 U18-8 U18-20
+ U18-21 U18-14 U18-18 U18-16 U18-24))
+		(net "PWR11"
+			(pins U21-17 C120-1 U33-33 C102-1 C103-1 C104-1 C117-1 C118-1 C119-1 C105-2
+ C106-2 C107-2 C121-2 C122-2 C123-2 U19-17 U19-25 U19-26 U19-27 U19-28 U19-29
+ U19-30 U19-31 U19-32 U19-33 U19-34 U19-15 U19-35 U19-13 U19-12 U19-11 U19-9
+ U19-10 U19-1 U19-2 U19-3 U19-4 U19-19 U19-5 U19-6 U19-7 U19-8 U19-20 U19-21
+ U19-14 U19-18 U19-16 U19-24 U20-36))
+		(net "PWR15"
+			(pins U33-21 C130-1 C131-1 C132-1 C163-1 C164-1 C165-1 C133-2 C134-2 C135-2
+ C166-2 C167-2 C168-2 U24-17 U24-25 U24-26 U24-27 U24-28 U24-29 U24-30 U24-31
+ U24-32 U24-33 U24-34 U24-15 U24-35 U24-13 U24-12 U24-11 U24-9 U24-10 U24-1
+ U24-2 U24-3 U24-4 U24-19 U24-5 U24-6 U24-7 U24-8 U24-20 U24-21 U24-14 U24-18
+ U24-16 U24-24 U29-36 R25-1))
+		(net "PWR16"
+			(pins R6-2 R7-2 U33-17 C133-1 C134-1 C135-1 C166-1 C167-1 C168-1 U29-17
+ U29-25 U29-26 U29-27 U29-28 U29-29 U29-30 U29-31 U29-32 U29-33 U29-34 U29-15
+ U29-35 U29-13 U29-12 U29-11 U29-9 U29-10 U29-1 U29-2 U29-3 U29-4 U29-19 U29-5
+ U29-6 U29-7 U29-8 U29-20 U29-21 U29-14 U29-18 U29-16 U29-24 C187-1 R24-2
+ C1-2 C2-2 C3-2 C13-2 C14-2 C15-2 U1-36))
+		(net "RX0_2"
+			(pins C70-1 U33-12))
+		(net "RX0_3"
+			(pins C68-1 U9-12))
+		(net "RX1_1"
+			(pins C69-2 U21-14))
+		(net "RX1_2"
+			(pins R10-1 R7-1 U33-14))
+		(net "RX1_3"
+			(pins R5-1 R2-1 U9-14))
+		(net "RX2_1"
+			(pins C71-2 U21-16))
+		(net "RX2_2"
+			(pins R9-1 R6-1 U33-16))
+		(net "RX2_3"
+			(pins R4-1 R1-1 U9-16))
+		(net "TX0_2"
+			(pins C71-1 U33-11))
+		(net "TX0_3"
+			(pins C69-1 U9-11))
+		(net "TX1_1"
+			(pins C68-2 U21-13))
+		(net "TX1_2"
+			(pins TP3-1 U33-13))
+		(net "TX1_3"
+			(pins TP1-1 U9-13))
+		(net "TX2_1"
+			(pins C70-2 U21-15))
+		(net "TX2_2"
+			(pins TP4-1 U33-15))
+		(net "TX2_3"
+			(pins TP2-1 U9-15))
+		(net "VCC"
+			(pins R1-2 R2-2 C211-1 C212-1 C213-1 C214-1 C221-1 C222-1 C223-1 C224-1 L2-1
+ L1-1 D6-1 D5-1 J8-1 J8-3 J8-2 J9-1 J9-3 J9-2 R11-1 U9-17 C56-1 C57-1 C58-1
+ C65-1 C66-1 C67-1 U11-17 U11-25 U11-26 U11-27 U11-28 U11-29 U11-30 U11-31
+ U11-32 U11-33 U11-34 U11-15 U11-35 U11-13 U11-12 U11-11 U11-9 U11-10 U11-1
+ U11-2 U11-3 U11-4 U11-19 U11-5 U11-6 U11-7 U11-8 U11-20 U11-21 U11-14 U11-18
+ U11-16 U11-24 C49-1)))
+	(network_electrical))

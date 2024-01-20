@@ -1,0 +1,170 @@
+RefDes: 14
+FactPartName: SMD_SOIC127P600X175-8N
+SubSeriesName: smd_soic127p600x175-8n
+PartNum: smd_soic127p600x175-8n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_soic127p600x175-8n\smd_soic127p600x175-8n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_soic127p600x175-8n\smd_soic127p600x175-8n.etd
+
+
+RefDes: 16
+FactPartName: SMD_TP_100-254
+SubSeriesName: smd_tp_100-254
+PartNum: smd_tp_100-254
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_tp_100-254\smd_tp_100-254.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_tp_100-254\smd_tp_100-254.etd
+
+
+RefDes: 12
+FactPartName: SMD_SOIC127P1030X265-20N
+SubSeriesName: smd_soic127p1030x265-20n
+PartNum: smd_soic127p1030x265-20n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_soic127p1030x265-20n\smd_soic127p1030x265-20n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_soic127p1030x265-20n\smd_soic127p1030x265-20n.etd
+
+
+RefDes: 1
+FactPartName: PTH_HDRV05W64P254_1X05
+SubSeriesName: pth_hdrv05w64p254_1x05
+PartNum: pth_hdrv05w64p254_1x05
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\pth_hdrv05w64p254_1x05\pth_hdrv05w64p254_1x05.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\pth_hdrv05w64p254_1x05\pth_hdrv05w64p254_1x05.etd
+
+
+RefDes: 9
+FactPartName: SMD_CON-CVILUX-CU04-SCM15B0
+SubSeriesName: smd_con-cvilux-cu04-scm15b0
+PartNum: smd_con-cvilux-cu04-scm15b0
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_con-cvilux-cu04-scm15b0\smd_con-cvilux-cu04-scm15b0.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_con-cvilux-cu04-scm15b0\smd_con-cvilux-cu04-scm15b0.etd
+
+
+RefDes: 15
+FactPartName: SMD_SOT457_SOT95P275X110-6N
+SubSeriesName: smd_sot457_sot95p275x110-6n
+PartNum: smd_sot457_sot95p275x110-6n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_sot457_sot95p275x110-6n\smd_sot457_sot95p275x110-6n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_sot457_sot95p275x110-6n\smd_sot457_sot95p275x110-6n.etd
+
+
+RefDes: 0
+FactPartName: PTH_HDRV02W11060P500_1X02
+SubSeriesName: pth_hdrv02w11060p500_1x02
+PartNum: pth_hdrv02w11060p500_1x02
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\pth_hdrv02w11060p500_1x02\pth_hdrv02w11060p500_1x02.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\pth_hdrv02w11060p500_1x02\pth_hdrv02w11060p500_1x02.etd
+
+
+RefDes: 6
+FactPartName: SMD_0603_CAPC1608X95N
+SubSeriesName: smd_0603_capc1608x95n
+PartNum: smd_0603_capc1608x95n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_0603_capc1608x95n\smd_0603_capc1608x95n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_0603_capc1608x95n\smd_0603_capc1608x95n.etd
+
+
+RefDes: 2
+FactPartName: SMD_0402_CAPC1005X55N
+SubSeriesName: smd_0402_capc1005x55n
+PartNum: smd_0402_capc1005x55n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_0402_capc1005x55n\smd_0402_capc1005x55n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_0402_capc1005x55n\smd_0402_capc1005x55n.etd
+
+
+RefDes: 5
+FactPartName: SMD_0603_CAPC1608X80N
+SubSeriesName: smd_0603_capc1608x80n
+PartNum: smd_0603_capc1608x80n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_0603_capc1608x80n\smd_0603_capc1608x80n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_0603_capc1608x80n\smd_0603_capc1608x80n.etd
+
+
+RefDes: 8
+FactPartName: SMD_0805_CAPC2012X145N
+SubSeriesName: smd_0805_capc2012x145n
+PartNum: smd_0805_capc2012x145n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_0805_capc2012x145n\smd_0805_capc2012x145n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_0805_capc2012x145n\smd_0805_capc2012x145n.etd
+
+
+RefDes: 3
+FactPartName: SMD_0402_CAPC1005X70N
+SubSeriesName: smd_0402_capc1005x70n
+PartNum: smd_0402_capc1005x70n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_0402_capc1005x70n\smd_0402_capc1005x70n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_0402_capc1005x70n\smd_0402_capc1005x70n.etd
+
+
+RefDes: 11
+FactPartName: SMD_LED2012X100N
+SubSeriesName: SMD_LED2012X100N
+PartNum: SMD_LED2012X100N
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\SMD_LED2012X100N\SMD_LED2012X100N.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\SMD_LED2012X100N\SMD_LED2012X100N.etd
+
+
+RefDes: 7
+FactPartName: SMD_0603_RESC1608X55N
+SubSeriesName: smd_0603_resc1608x55n
+PartNum: smd_0603_resc1608x55n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_0603_resc1608x55n\smd_0603_resc1608x55n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_0603_resc1608x55n\smd_0603_resc1608x55n.etd
+
+
+RefDes: 13
+FactPartName: SMD_SOIC127P600X175-14N
+SubSeriesName: smd_soic127p600x175-14n
+PartNum: smd_soic127p600x175-14n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_soic127p600x175-14n\smd_soic127p600x175-14n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_soic127p600x175-14n\smd_soic127p600x175-14n.etd
+
+
+RefDes: 4
+FactPartName: SMD_0402_RESC1005X37N
+SubSeriesName: smd_0402_resc1005x37n
+PartNum: smd_0402_resc1005x37n
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_0402_resc1005x37n\smd_0402_resc1005x37n.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_0402_resc1005x37n\smd_0402_resc1005x37n.etd
+
+
+RefDes: 10
+FactPartName: SMD_DO214AC_SMC
+SubSeriesName: smd_do214ac_smc
+PartNum: smd_do214ac_smc
+Height: 0
+Side: 
+PRT: C:\PADS Projects\Reuse\3DModels\PartDB\Packages\User\smd_do214ac_smc\smd_do214ac_smc.prt
+PTD: C:\PADS Projects\Reuse\3DModels\PartDB\User\smd_do214ac_smc\smd_do214ac_smc.etd
+
+
