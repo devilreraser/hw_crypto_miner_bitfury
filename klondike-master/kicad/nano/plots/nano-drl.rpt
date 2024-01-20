@@ -1,0 +1,32 @@
+Drill report for /home/chris/Dev/klondike/kicad/nano/nano.brd
+Created on Sun 19 May 2013 09:45:06 PM ICT
+Drill report for plated through holes :
+T1  0.30mm  0.012"  (86 holes)
+T2  0.50mm  0.020"  (2 holes)
+T3  1.02mm  0.040"  (3 holes)
+
+Total plated holes count 91
+
+
+Drill report for buried and blind vias :
+
+Drill report for holes from layer B.Cu to layer Inner1.Cu :
+
+Total plated holes count 0
+
+
+Drill report for holes from layer Inner1.Cu to layer Inner2.Cu :
+
+Total plated holes count 0
+
+
+Drill report for holes from layer Inner2.Cu to layer F.Cu :
+
+Total plated holes count 0
+
+
+Drill report for unplated through holes :
+
+Total unplated holes count 0
+
+
