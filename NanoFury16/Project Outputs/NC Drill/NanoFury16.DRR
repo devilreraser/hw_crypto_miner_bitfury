@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: NanoFury16.PcbDoc   2/22/2016  2:15:41 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : NanoFury16-Plated.TXT
+ASCII Non-Plated RoundHoles File : NanoFury16-NonPlated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.3mm (11.811mil)        Round          123              204.09 mm (8.04 Inch)
+T2        0.8mm (31.496mil)        Round          5                10.15 mm (0.40 Inch)
+T3        0.9mm (35.433mil)        Round          4                7.00 mm (0.28 Inch)
+T4        1.1mm (43.307mil)        Round          2         NPTH   4.50 mm (0.18 Inch)
+T5        2.3mm (90.551mil)        Round          2         NPTH   12.47 mm (0.49 Inch)
+---------------------------------------------------------------------------
+Totals                                            136              238.22 mm (9.38 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:00
